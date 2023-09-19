@@ -73,7 +73,7 @@
 </section>
 
 <section>
-    <div class="container-xl py-5">
+    <div class="container-xl py-5 ">
         <div class="py-4">
             <center>
                 <h1>Access Healthcare Was Founded by Nurses for Healthcare Professionals Like You</h1>
@@ -88,7 +88,7 @@
 
         <div class="row d-flex align-items-center py-4">
             <div class="col-6">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5" alt="...">
+                <img src="{{asset('img/Travel.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-6 ">
                 <h1>Travel</h1>
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="row d-flex align-items-center py-2">
+        <div class="row d-flex align-items-center py-4">
             <div class="col-6 ">
                 <h1 class="text-end">Local</h1>
                 <p class="text-end">
@@ -117,13 +117,13 @@
                 </div>
             </div>
             <div class="col-6">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5" alt="...">
+                <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
         </div>
 
-        <div class="row d-flex align-items-center py-2">
+        <div class="row d-flex align-items-center py-4">
             <div class="col-6">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5" alt="...">
+                <img src="{{asset('img/Permanent.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-6 ">
                 <h1>Permanent</h1>
@@ -138,7 +138,7 @@
             </div>
         </div>
 
-        <div class="row d-flex align-items-center py-2">
+        <div class="row d-flex align-items-center py-4 mb-4">
             <div class="col-6 ">
                 <h1 class="text-end">Locum</h1>
                 <p class="text-end">
@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5" alt="...">
+                <img src="{{asset('img/Locum Tenens.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
         </div>
     </div>

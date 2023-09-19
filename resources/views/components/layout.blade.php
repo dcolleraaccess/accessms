@@ -58,6 +58,11 @@
             transform: scale(1.02);
         }
 
+        .contentimg {
+            max-height: 400px;
+            object-fit: cover;
+        }
+
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {
                 display: none;
