@@ -125,11 +125,13 @@
             </div>
             <div class="col-6 ">
                 <h1>Permanent</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis nesciunt quidem accusamus
-                    natus, animi asperiores. Amet nemo ullam dignissimos, sunt alias voluptatibus? Doloremque quod
-                    deleniti veritatis laudantium ab dolorum, doloribus aspernatur corrupti nihil placeat eveniet
-                    eligendi nesciunt pariatur illo ad animi est! Laudantium deserunt voluptate exercitationem
-                    necessitatibus consequuntur eius.</p>
+                <p>Have you reached a point where you're seeking stability and the chance to settle down? Are you a
+                    recent graduate ready for a more permanent role? We can assist you in securing a lasting position
+                    within a hospital, simplifying the often complex onboarding process. Our team is dedicated to your
+                    best interests, working diligently to find your ideal match. Access Healthcare simplifies the
+                    intimidating job search process by assessing your skills and experience, providing personalized
+                    guidance to link you with potential employers, and advocating on your behalf every step of the way.
+                </p>
                 <button class="btn btn-warning mb-4">See More</button>
             </div>
         </div>
