@@ -42,7 +42,7 @@
 </div>
 
 
-<section style="background-color: #FFEC40">
+<section style="background-color: #FFFF00">
     <div class="container-xl py-3">
         <div class="row">
             <h3 class="fw-bold col">
@@ -98,7 +98,7 @@
                     valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
                     encountering a variety of medical conditions and patient populations, thus sharpening your clinical
                     care skills and judgment. </p>
-                <button class="btn btn-warning mb-4">See More</button>
+                <button class="btn mb-4" style="background-color: #FFFF00">See More</button>
             </div>
         </div>
 
@@ -113,7 +113,7 @@
                     close to friends and family while infusing your career with excitement at Access Healthcare!
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn btn-warning custom-menu mb-4">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
                 </div>
             </div>
             <div class="col-6">
@@ -134,7 +134,7 @@
                     intimidating job search process by assessing your skills and experience, providing personalized
                     guidance to link you with potential employers, and advocating on your behalf every step of the way.
                 </p>
-                <button class="btn btn-warning mb-4">See More</button>
+                <button class="btn  mb-4" style="background-color: #FFFF00">See More</button>
             </div>
         </div>
 
@@ -147,7 +147,7 @@
                     latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn btn-warning custom-menu mb-4">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
                 </div>
             </div>
             <div class="col-6">
@@ -213,7 +213,7 @@
     </div>
 </section>
 
-<section style="background-color: yellow">
+<section style="background-color: #ffff00">
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center">
             <div class="col-6">
@@ -258,7 +258,7 @@
                     latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn btn-warning custom-menu mb-4">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
                     <img src=" {{asset('img/youtube.png')}}" alt="..." style="max-width: 50%" class="custom-menu">
                 </div>
 
