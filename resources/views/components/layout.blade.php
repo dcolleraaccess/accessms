@@ -98,7 +98,7 @@
 
         @media (min-width: 1582px) {
             .carousel-item:first-child img {
-                object-position: 0px -150px;
+                object-position: 0px -200px;
             }
         }
     </style>

@@ -163,8 +163,8 @@
         <div class="row">
             <div class="col-3">
                 <img src="{{asset('img/Philadelphia Skyline.jpg')}}"
-                    style="height:350px; width:300px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                    class="rounded-4 loc">
+                    style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                    class="rounded-4 loc img-fluid">
                 <center>
                     <h5 class="my-2" style="z-index: 10">
                         Philadelphia
@@ -173,8 +173,8 @@
             </div>
             <div class="col-3">
                 <img src="{{asset('img/New Jersey Cape May Beach.jpg')}}"
-                    style="height:350px; width:300px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                    class="rounded-4 loc">
+                    style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                    class="rounded-4 loc img-fluid">
                 <center>
                     <h5 class="my-2" style="z-index: 10">
                         New Jersey
@@ -183,8 +183,8 @@
             </div>
             <div class="col-3">
                 <img src="{{asset('img/California San Diego.jpg')}}"
-                    style="height:350px; width:300px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                    class="rounded-4 loc">
+                    style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                    class="rounded-4 loc img-fluid">
                 <center>
                     <h5 class="my-2" style="z-index: 10">
                         California
@@ -193,8 +193,8 @@
             </div>
             <div class="col-3">
                 <img src="{{asset('img/Washington Seattle Skyline.jpg')}}"
-                    style="height:350px; width:300px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                    class="rounded-4 loc">
+                    style="height:350px; min-width: 100px ; object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                    class="rounded-4 loc img-fluid">
                 <center>
                     <h5 class="my-2" style="z-index: 10">
                         Washington
