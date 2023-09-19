@@ -43,6 +43,12 @@
             z-index: 1;
         }
 
+        .carousel-item:first-child {
+            background-image: url('img/1 - Traveler on Boat Deck Exploring.jpg');
+            background-size: cover;
+            background-position: center top;
+        }
+
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {
                 display: none;
