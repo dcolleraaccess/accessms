@@ -3,7 +3,7 @@
 @section('content')
 {{-- Header with Image --}}
 <div style="position:relative;">
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="{{asset('img/1 - Traveler on Boat Deck Exploring.jpg')}}" class="d-block w-100">

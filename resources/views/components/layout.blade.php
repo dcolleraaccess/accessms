@@ -46,7 +46,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(0deg, rgba(8, 120, 231, 0.209) 0%, rgba(8, 120, 231, 0.324) 100%);
+            background: linear-gradient(0deg, rgba(8, 120, 231, 0.037) 0%, rgba(8, 120, 231, 0.129) 100%);
             z-index: 1;
         }
 
@@ -67,9 +67,9 @@
             }
         }
 
-        @media (min-width: 1282px) {
+        @media (min-width: 1280px) {
             .carousel-item:first-child img {
-                object-position: 0px -100px;
+                object-position: 0px -0px;
             }
 
             .carousel-item:nth-child(2) img {
@@ -86,6 +86,12 @@
 
             .carousel-item:nth-child(6) img {
                 object-position: 0px -50px;
+            }
+        }
+
+        @media (min-width: 1582px) {
+            .carousel-item:first-child img {
+                object-position: 0px -150px;
             }
         }
     </style>
