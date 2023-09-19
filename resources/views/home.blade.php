@@ -5,23 +5,23 @@
 <div style="position:relative;">
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="4000">
                 <img src="{{asset('img/1 - Traveler on Boat Deck Exploring.jpg')}}" class="d-block w-100">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="{{asset('img/2 - Caregiver Assist Senior Woman.jpg')}}" class="d-block w-100">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="{{asset('img/3 - Hiker Woman Rising Arms in Victory.jpg')}}" class="d-block w-100">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="{{asset('img/4 - Female Medical Practitioner Reassuring Patient.jpg')}}"
                     class="d-block w-100">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="{{asset('img/5 - Elegant Woman Enjoys the View to a Canal.jpg')}}" class="d-block w-100">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="{{asset('img/6 - Medical Technicians Doctor Looking at the Microscope.jpg')}}"
                     class="d-block w-100">
             </div>
