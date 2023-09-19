@@ -157,7 +157,7 @@
     </div>
 </section>
 
-<section style="background-color: lightgrey">
+<section style="background-color: rgb(238, 238, 238)">
     <div class="container-xl py-5">
         <center>
             <h1 class="mb-4">Featured Locations</h1>
