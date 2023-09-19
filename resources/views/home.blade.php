@@ -6,31 +6,36 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/1 - Man on Paddle Board.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/1 - Traveler on Boat Deck Exploring.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/2 - Nurse Walking Elderly Patient.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/2 - Caregiver Assist Senior Woman.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/3 - Woman Exploring Venice, Italy.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/3 - Hiker Woman Rising Arms in Victory.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/4 - Woman Physician with Patient.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/4 - Female Medical Practitioner Reassuring Patient.jpg')}}"
+                    class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/5 - Reached Top of Mountain.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/5 - Elegant Woman Enjoys the View to a Canal.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/6 - Lab Technician.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/6 - Medical Technicians Doctor Looking at the Microscope.jpg')}}"
+                    class="d-block w-100">
             </div>
         </div>
     </div>
 
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px; font-family: 'Baskervville'; font-weight:bolder" class="mb-0 pb-0">Adventure or
+        <h1 style="font-size: 72px; font-family: 'Times New Roman'; " class="mb-0 pb-0">Adventure or
             Fortune</h1>
-        <h1 style="font-family: 'Baskervville';">Why not both?</h1>
-        <p>Explore our site to discover why our Healthcare Professionals love working with us while discovering some of
+        <h1 style="font-family: 'Times New Roman';">Why not <span
+                style="font:  italic 1em Georgia, Times, 'Times New Roman', serif;">both</span>?</h1>
+        <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals love working
+            with
+            us while discovering some of
             the best opportunities in the industry
         </p>
     </div>

@@ -17,6 +17,8 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
         * {
             font-family: 'Poppins', sans-serif;
@@ -37,7 +39,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(0deg, rgba(8, 120, 231, 0.14) 0%, rgba(8, 120, 231, 0.14) 100%);
+            background: linear-gradient(0deg, rgba(8, 120, 231, 0.209) 0%, rgba(8, 120, 231, 0.324) 100%);
             z-index: 1;
         }
 
