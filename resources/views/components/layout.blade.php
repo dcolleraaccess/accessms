@@ -28,8 +28,15 @@
             margin-left: auto;
         }
 
-        .carousel-item {
+        .carousel-item img {
             max-height: 800px;
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .carousel-item:first-child img {
+            object-position: 0px 0px;
         }
 
         .carousel-item::before {
@@ -43,11 +50,6 @@
             z-index: 1;
         }
 
-        .carousel-item:first-child {
-            background-image: url('img/1 - Traveler on Boat Deck Exploring.jpg');
-            background-size: cover;
-            background-position: center top;
-        }
 
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {
@@ -62,6 +64,28 @@
 
             .navbar .nav-item .dropdown-menu {
                 margin-top: 0;
+            }
+        }
+
+        @media (min-width: 1282px) {
+            .carousel-item:first-child img {
+                object-position: 0px -100px;
+            }
+
+            .carousel-item:nth-child(2) img {
+                object-position: 0px -50px;
+            }
+
+            .carousel-item:nth-child(3) img {
+                object-position: 0px -50px;
+            }
+
+            .carousel-item:nth-child(4) img {
+                object-position: 0px -50px;
+            }
+
+            .carousel-item:nth-child(6) img {
+                object-position: 0px -50px;
             }
         }
     </style>
