@@ -106,9 +106,11 @@
             <div class="col-6 ">
                 <h1 class="text-end">Local</h1>
                 <p class="text-end">
-                    Explore the world of wellness and healthcare with our brand new podcast, 'See U Next Tuesday!' Join
-                    us as we delve into a variety of captivating health-related topics, offering insights into the
-                    latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
+                    If you're seeking the ideal blend of a staff position and the adventure of travel, our local
+                    placements are designed for those deeply rooted in their local communities who value flexibility.
+                    Whether your preference is for short or long-term contracts, you'll enjoy compensation that exceeds
+                    typical staff positions, all while preserving the benefits of a travel healthcare professional. Stay
+                    close to friends and family while infusing your career with excitement at Access Healthcare!
                 </p>
                 <div class="d-flex flex-column justify-content-end">
                     <button class="btn btn-warning custom-menu mb-4">See More</button>
