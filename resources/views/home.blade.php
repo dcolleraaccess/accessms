@@ -33,7 +33,8 @@
             Fortune</h1>
         <h1 style="font-family: 'Times New Roman'; color:#FFFF00">Why not <span
                 style=" font: italic 1em Georgia, Times, 'Times New Roman' , serif;">both</span>?</h1>
-        <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals love working
+        <p style="font-family: 'Raleway'; color:#FFFF00">Explore our site to discover why our Healthcare Professionals
+            love working
             with
             us while discovering some of
             the best opportunities in the industry
