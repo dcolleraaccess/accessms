@@ -6,22 +6,32 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/ahs_slide2.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('img/1 - Man on Paddle Board.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/ahs_slide3.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('img/2 - Nurse Walking Elderly Patient.jpg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('img/3 - Woman Exploring Venice, Italy.jpg')}}" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="{{asset('img/4 - Woman Physician with Patient.jpg')}}" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="{{asset('img/5 - Reached Top of Mountain.jpg')}}" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="{{asset('img/6 - Lab Technician.jpg')}}" class="d-block w-100">
             </div>
         </div>
     </div>
 
-    <div style="position:absolute; top: 450px; left:100px; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px">Adventure or Fortune</h1>
-        <h1>Why not both?</h1>
-        <p>Explore our site to discover why our nurses love their jobs <br> and find the best opportunities in the
-            industry.
+    <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
+        <h1 style="font-size: 72px; font-family: 'Baskervville'; font-weight:bolder" class="mb-0 pb-0">Adventure or
+            Fortune</h1>
+        <h1 style="font-family: 'Baskervville';">Why not both?</h1>
+        <p>Explore our site to discover why our Healthcare Professionals love working with us while discovering some of
+            the best opportunities in the industry
         </p>
     </div>
 </div>
@@ -61,13 +71,13 @@
     <div class="container-xl py-5">
         <div class="py-4">
             <center>
-                <h1>For Travel Nurses and Allied Careers</h1>
-                <h5>Our company is owned by nurses and was built with your needs in mind!</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis nesciunt quidem accusamus
-                    natus, animi asperiores. Amet nemo ullam dignissimos, sunt alias voluptatibus? Doloremque quod
-                    deleniti veritatis laudantium ab dolorum, doloribus aspernatur corrupti nihil placeat eveniet
-                    eligendi nesciunt pariatur illo ad animi est! Laudantium deserunt voluptate exercitationem
-                    necessitatibus consequuntur eius.</p>
+                <h1>Access Healthcare Was Founded by Nurses for Healthcare Professionals Like You</h1>
+                <p>Are you a passionate healthcare professional ready to embark on the adventure of a lifetime? Discover
+                    open positions with us and take your career to new heights. Our platform connects talented
+                    professionals like you with incredible assignments across the country. Unlike other agencies, we
+                    offer a true family feel and work with you to find the placement that is right for you. We offer one
+                    of the top leading pay packages in the industry and we are ready to get you the money you deserve!
+                </p>
             </center>
         </div>
 
@@ -77,11 +87,12 @@
             </div>
             <div class="col-6 ">
                 <h1>Travel</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis nesciunt quidem accusamus
-                    natus, animi asperiores. Amet nemo ullam dignissimos, sunt alias voluptatibus? Doloremque quod
-                    deleniti veritatis laudantium ab dolorum, doloribus aspernatur corrupti nihil placeat eveniet
-                    eligendi nesciunt pariatur illo ad animi est! Laudantium deserunt voluptate exercitationem
-                    necessitatibus consequuntur eius.</p>
+                <p>Our team of traveling healthcare professionals operates on a temporary contract basis providing you
+                    the opportunity to work in diverse healthcare facilities and discover new cities and states along
+                    the way. Let us help you unlock "Access" to your next adventure all while enjoying competitive pay,
+                    valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
+                    encountering a variety of medical conditions and patient populations, thus sharpening your clinical
+                    care skills and judgment. </p>
                 <button class="btn btn-warning mb-4">See More</button>
             </div>
         </div>
