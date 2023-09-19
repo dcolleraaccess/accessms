@@ -50,6 +50,13 @@
             z-index: 1;
         }
 
+        .loc {
+            transition: transform 0.3s ease;
+        }
+
+        .loc:hover {
+            transform: scale(1.02);
+        }
 
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {
