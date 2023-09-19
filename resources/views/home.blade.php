@@ -31,8 +31,8 @@
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
         <h1 style="font-size: 72px; font-family: 'Times New Roman'; color:#FFFF00" class="mb-0 pb-0">Adventure or
             Fortune</h1>
-        <h1 style="font-family: 'Times New Roman';">Why not <span
-                style="font:  italic 1em Georgia, Times, 'Times New Roman', serif;">both</span>?</h1>
+        <h1 style="font-family: 'Times New Roman'; color:#FFFF00">Why not <span
+                style=" font: italic 1em Georgia, Times, 'Times New Roman' , serif;">both</span>?</h1>
         <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals love working
             with
             us while discovering some of
