@@ -1,7 +1,7 @@
 <div class="container-fluid bg-white shadow fixed-top">
     <nav class="navbar navbar-expand-lg ">
         <div class="container-lg">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="{{asset('img/Logo Only - NO BG.png')}}" alt="ahclogo" style="max-width: 150px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -14,7 +14,7 @@
                         <a class="nav-link" href="#">Open Jobs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
