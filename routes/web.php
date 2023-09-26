@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/test', function(){
-    return view('test');
+Route::get('/job', function(){
+    return view('jobboard');
 });
