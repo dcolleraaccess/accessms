@@ -141,11 +141,14 @@
 
         <div class="row d-flex align-items-center py-4 mb-4">
             <div class="col-6 ">
-                <h1 class="text-end">Locum</h1>
+                <h1 class="text-end">Locum Tenens</h1>
                 <p class="text-end">
-                    Explore the world of wellness and healthcare with our brand new podcast, 'See U Next Tuesday!' Join
-                    us as we delve into a variety of captivating health-related topics, offering insights into the
-                    latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
+                    Access Healthcare specializes in connecting healthcare professionals, including physicians, nurse
+                    practitioners, physician assistants, and various clinical specialists, with opportunities
+                    nationwide. Are you interested in reaping the rewards of flexibility, a wide range of experiences,
+                    and competitive compensation? Our Locum Tenens positions have become a preferred option for
+                    healthcare providers who prioritize the autonomy to select assignments and discover diverse
+                    healthcare environments.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
                     <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
