@@ -21,3 +21,9 @@ Route::get('/', function () {
 Route::get('/job', function(){
     return view('jobboard');
 });
+
+
+Route::get('/subcontent', function(){
+    return view('subcontent');
+});
+

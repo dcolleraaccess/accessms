@@ -47,7 +47,7 @@
     <div class="container-xl py-3">
         <div class="row">
             <h3 class="fw-bold col">
-                Search Jobs Content Here
+                Search Jobs
             </h3>
             <div class="col">
                 <select class="form-select" aria-label="Default select example">
