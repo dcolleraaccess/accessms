@@ -283,10 +283,11 @@
     <div class="container-xl py-3 text-white">
         <div class="py-5 my-5">
             <center>
-                <h1>Earn up<br>to $1000</h1>
+                <h1>Unlock Rewards with<br>Our Referral Program!</h1>
                 <p>
-                    If you’ve enjoyed working with us,<br>
-                    why not refer your friends?
+                    At Access Healthcare, we believe that great things are meant to be shared. That's why we're excited
+                    to introduce our Referral Program, designed to reward you for spreading the word about our
+                    exceptional tea. Earn up to $1000 when your referral completes their first assignment.
                 </p>
                 <button class="btn btn-light">Referral Program</button>
             </center>
