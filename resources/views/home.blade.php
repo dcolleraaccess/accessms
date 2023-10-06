@@ -29,8 +29,7 @@
     </div>
 
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Adventure or
-            Fortune</h1>
+        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">You Need Access to Get In</h1>
         <h1 style="font-family: 'Times New Roman';">Why not <span
                 style=" font: italic 1em Georgia, Times, 'Times New Roman' , serif;">both</span>?</h1>
         <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals
@@ -220,16 +219,12 @@
 <section style="background-color: #ffff00">
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center">
-            <div class="col-6">
-                <div class="card text-bg-dark">
-                    <img src="{{asset('img/ahs_slide3.jpg')}}" class="d-block w-100 card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
+
+            <iframe src="https://www.youtube.com/embed/_twgLLdpVaY"
+                title="Get To Know the Owner and CEO of Access Healthcare – Danielle Doyle" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="col-6" height="475"></iframe>
+
 
             <div class="col-6">
                 <center>
