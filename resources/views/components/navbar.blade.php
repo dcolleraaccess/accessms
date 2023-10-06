@@ -11,50 +11,56 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav custom-menu fw-bolder">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Open Jobs</a>
+                        <a class="nav-link" href="https://jobs.accesshealthcarestaffing.com/">Open Jobs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link " href="/about" role="button" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu font-weight-bold">
-                            <li><a class="dropdown-item py-2" href="#">Pay and Benefits</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Travel Nurse FAQs</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Referral Program</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Continuing Education</a></li>
-                            <li><a class="dropdown-item py-2" href="#">State Nursing Boards</a></li>
+                            <li><a class="dropdown-item py-2" href="/about">Who We Are</a></li>
+                            <li><a class="dropdown-item py-2" href="/blog">Access Blog</a></li>
+                            <li><a class="dropdown-item py-2" href="/meetyourteam">Meet Your Team</a></li>
+                            <li><a class="dropdown-item py-2" href="/tjc">Joint Commission</a></li>
+                            <li><a class="dropdown-item py-2" href="/corporatecareers">Corporate Careers</a></li>
+                            <li><a class="dropdown-item py-2" href="/connect">Connect With Us</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link " href="/resources" role="button">
                             Resources
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item py-2" href="#">LEAP Portal</a></li>
-                            <li><a class="dropdown-item py-2" href="#">View Paystub</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Take Home Calculator</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Culture of Wellness</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Travel Forms</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Internal Job Openings</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Joint Commission</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Blog</a></li>
+                            <li><a class="dropdown-item py-2"
+                                    href="https://nexus-leap.laboredge.com/access/quicksignup">Quick Application</a>
+                            </li>
+                            <li><a class="dropdown-item py-2" href="https://nexus-leap.laboredge.com/access/signin">LEAP
+                                    Portal Login</a></li>
+                            <li><a class="dropdown-item py-2"
+                                    href="https://achc.apps.staffingaccess.com/portals/Login.aspx?ReturnUrl=/portals/">View
+                                    Paystubs</a></li>
+                            <li><a class="dropdown-item py-2" href="/referrals">Referral Program</a></li>
+                            <li><a class="dropdown-item py-2" href="/cultureofwellness">Culture of Wellness</a></li>
+                            <li><a class="dropdown-item py-2" href="/statenursinglicense">State Nursing License
+                                    Requirements</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link " href="/employers" role="button" aria-expanded="false">
                             For Employers
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item py-2" href="#">Staffing Request</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Workforce Solutions - BPO Services</a></li>
+                            <li><a class="dropdown-item py-2" href="/requeststaff">Staffing Request</a></li>
+                            <li><a class="dropdown-item py-2" href="https://ahioas.com/">Workforce Solutions - BPO
+                                    Services</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Store</a>
+                        <a class="nav-link" aria-current="page" href="https://www.accessswag.com/">Swag Shop</a>
                     </li>
                 </ul>
             </div>
