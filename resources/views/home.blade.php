@@ -30,7 +30,8 @@
 
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
         <h1 style="font-size: 64px; font-family: 'Times New Roman';" class="mb-0 pb-0">You Need Access to Get In</h1>
-        <h4 style="font-family: 'Times New Roman';">Unlock Opportunities with your Trusted Healthcare Staffing Partner
+        <h4 style="font-family: 'Times New Roman';">Unlock Opportunities with your Dependable Healthcare Staffing
+            Partner
         </h4>
         <p style="font-family: 'Raleway';">Connecting Healthcare Professionals with Quality Opportunities since 2015
         </p>
