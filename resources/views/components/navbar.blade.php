@@ -41,7 +41,7 @@
                             <li><a class="dropdown-item py-2" href="https://nexus-leap.laboredge.com/access/signin">LEAP
                                     Portal Login</a></li>
                             <li><a class="dropdown-item py-2"
-                                    href="https://achc.apps.staffingaccess.com/portals/Login.aspx?ReturnUrl=/portals/">View
+                                    href="https://myapps.paychex.com/landing_remote/login.do?lang=en">View
                                     Paystubs</a></li>
                             <li><a class="dropdown-item py-2" href="/referrals">Referral Program</a></li>
                             <li><a class="dropdown-item py-2" href="/cultureofwellness">Culture of Wellness</a></li>
@@ -55,8 +55,8 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item py-2" href="/requeststaff">Staffing Request</a></li>
-                            <li><a class="dropdown-item py-2" href="https://ahioas.com/">Workforce Solutions - BPO
-                                    Services</a></li>
+                            <li><a class="dropdown-item py-2" href="https://ahioas.com/">Workforce Solutions – BPO/RPO
+                                    Services </a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
