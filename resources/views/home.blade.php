@@ -72,7 +72,8 @@
     <div class="container-xl py-5 ">
         <div class="py-4">
             <center>
-                <h1>Access Healthcare Was Founded by Nurses for Healthcare Professionals Like You</h1>
+                <h1 class="mb-3">Adventure or Fortune<br>Why not both?</h1>
+                <h5>Access Healthcare Was Founded by Nurses for Healthcare Professionals Like You</h5>
                 <p>Are you a passionate healthcare professional ready to embark on the adventure of a lifetime? Discover
                     open positions with us and take your career to new heights. Our platform connects talented
                     professionals like you with incredible assignments across the country. Unlike other agencies, we
