@@ -156,7 +156,6 @@ class LandingPageController extends Controller
         $Pharmacy = [
             'Pharmacist',
             'Certified Pharmacy Tech',
-            'Certified Pharmacy Tech',
             'Pharmacy Tech',
             'Pharmacy Manager',
         ];
@@ -268,6 +267,108 @@ class LandingPageController extends Controller
             'Telehealth Patient Care Coordinator',
         ];
 
+        $SterileProcessing = [
+            'Certified Sterole Processing Tech',
+            'Sterile Processing Tech',
+            'Sterile Processing Manager',
+        ];
+
+        $SurgicalScrubTech = [
+            'Certified Surgical / Scrub Tech',
+            'Surgical / Scrub Tech (Non Certified)',
+        ];
+
+        $SocialWorker = [
+            'Social Worker',
+            'MSW',
+            'Associate Clinical Social Worker',
+            'LCSW',
+            'Case Management',
+            'Telehealth Social Worker',
+        ];
+
+        $AlliedOther = [
+            'Anesthesia Tech',
+            'Certified Anesthesia Tech',
+            'Endo Tech',
+            'GI Tech',
+            'Perfusionist',
+            'Licensed Case Worker',
+            'Ventilator Tech',
+            'Lactation Consultant',
+            'Paramedic / EMT',
+            'Imaging',
+            'Medical Physicist',
+            'Blood Bank Tech',
+            'Audiologist',
+            'Cardiac Device Specialist',
+            'Epidemiologist',
+            'Optical Tech',
+            'ER Tech',
+            'CMA',
+            'RMA',
+            'Medical Assistant',
+        ];
+
+        $PhysicianDoctor = [
+            'Optometrist',
+            'Opthamologist',
+            'Pulmonary Physician',
+            'Family Medicine Physician',
+            'OB / GYN Physician',
+            'Anesthesiologist',
+            'Otolaryngologist',
+            'Internal Medicine - Physician',
+            'Addiction Medicine - Physician',
+            'Primary Care Physician',
+            'Emergency Room Physician',
+        ];
+
+        $AdminNonClerical = [
+            'Accountant',
+            'Admin Assitant',
+            'Billing Representative',
+            'Clerk',
+            'Liason',
+            'Controller',
+            'Credentialing Coordinator',
+            'Data Entry Specialist',
+            'Financial Representative',
+            'HR Associate',
+            'HR Recruiter',
+            'Patient Greeter',
+            'Food Service',
+            'Cook',
+            'Housekeeper',
+            'Claim Processor',
+            'Patient Access Rep',
+            'Customer Service Rep',
+            'HR Manager',
+            'Patient Educator',
+            'Environmental Service Worker',
+            'Medical Writer',
+            'Financial Analyst',
+            'Patient Registration Rep',
+            'Registrar',
+            'Credentialing Specialist',
+            'HR Benefits Coordinator',
+            'Patient Care Manager',
+            'Credentialing Manager',
+            'Healthcare Adminstrator',
+            'Clinical Documentation Specialist',
+            'Materials Handler',
+            'Supply Chain Analyst',
+            'Payroll Specialist',
+            'Account Manager Sales',
+            'Paralegal',
+            'Revenue Cycle Specialist',
+            'Document Imaging Specialist',
+            'Maintenance Technician',
+            'Regulatory Affairs Specialist',
+            'ADON',
+            'Clinical Care Director',
+        ];
+
         if($selectedProfession == 'RN'){
             return response()->json($RN);
         }
@@ -309,6 +410,24 @@ class LandingPageController extends Controller
         }
         if($selectedProfession == 'Patient Care Techs'){
             return response()->json($PatientCareTechs);
+        }
+        if($selectedProfession == 'Sterile Processing'){
+            return response()->json($SterileProcessing);
+        }
+        if($selectedProfession == 'Surgical / Scrub Tech'){
+            return response()->json($SurgicalScrubTech);
+        }
+        if($selectedProfession == 'Social Worker'){
+            return response()->json($SocialWorker);
+        }
+        if($selectedProfession == 'Allied - Other'){
+            return response()->json($AlliedOther);
+        }
+        if($selectedProfession == 'Physician / Doctor'){
+            return response()->json($PhysicianDoctor);
+        }
+        if($selectedProfession == 'Admin / Non-Clerical'){
+            return response()->json($AdminNonClerical);
         }
     }
 }

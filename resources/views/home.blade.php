@@ -65,6 +65,12 @@
                     <option value="Dietician">Dietician</option>
                     <option value="CNA / Medication Aide">CNA / Medication Aide</option>
                     <option value="Patient Care Techs">Patient Care Techs</option>
+                    <option value="Sterile Processing">Sterile Processing</option>
+                    <option value="Surgical / Scrub Tech">Surgical / Scrub Tech</option>
+                    <option value="Social Worker">Social Worker</option>
+                    <option value="Allied - Other">Allied - Other</option>
+                    <option value="Physician / Doctor">Physician / Doctor</option>
+                    <option value="Admin / Non-Clerical">Admin / Non-Clerical</option>
                 </select>
             </div>
             <div class="col">
