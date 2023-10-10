@@ -218,6 +218,56 @@ class LandingPageController extends Controller
             'Senior Clinical Manager',
         ];
 
+        $TherapyRehab = [
+            'COTA',
+            'OT',
+            'CRT',
+            'RRT',
+            'SLP',
+            'PT',
+            'PTA',
+            'Sleep / PSG Tech',
+            'Certified Sleep/ PSG Tech',
+            'Adjunctive Therapist',
+            'Recreational Therapist',
+            'Athletic Trainer',
+            'Rehabilitation Counselor',
+            'Expressive Therapist',
+            'Pulmonary Function Tech',
+            'Speech Therapy Assistant',
+            'Music Therapy',
+        ];
+
+        $Dietician = [
+            'Dietician',
+            'Pediatric Clinical Dietician',
+            'Virtual Dietician',
+            'Registered Dietician',
+            'Dietary Aide',
+            'Dietary Manager',
+        ];
+
+        $CNAMedicationAide = [
+            'CNA',
+            'Nurse Aide',
+            'Sitter / Companion',
+            'LTC',
+            'LTAC',
+            'SNF',
+            'Assisted Living',
+            'Medication Aide',
+        ];
+
+        $PatientCareTechs = [
+            'PCT',
+            'Certified Dialysis Tech',
+            'Dialysis Tech',
+            'Behavioral Health Tech',
+            'Patient Care Associate',
+            'Patient Transporter',
+            'Telehealth Patient Care Coordinator',
+        ];
+
         if($selectedProfession == 'RN'){
             return response()->json($RN);
         }
@@ -247,6 +297,18 @@ class LandingPageController extends Controller
         }
         if($selectedProfession == 'Laboratory'){
             return response()->json($Laboratory);
+        }
+        if($selectedProfession == 'Therapy/Rehab'){
+            return response()->json($TherapyRehab);
+        }
+        if($selectedProfession == 'Dietician'){
+            return response()->json($Dietician);
+        }
+        if($selectedProfession == 'CNA / Medication Aide'){
+            return response()->json($CNAMedicationAide);
+        }
+        if($selectedProfession == 'Patient Care Techs'){
+            return response()->json($PatientCareTechs);
         }
     }
 }

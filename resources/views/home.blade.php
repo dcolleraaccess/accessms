@@ -61,6 +61,10 @@
                     <option value="Physicians Assistant">Physicians Assistant</option>
                     <option value="Radiology / Sonographer">Radiology / Sonographer</option>
                     <option value="Laboratory">Laboratory</option>
+                    <option value="Therapy/Rehab">Therapy/Rehab</option>
+                    <option value="Dietician">Dietician</option>
+                    <option value="CNA / Medication Aide">CNA / Medication Aide</option>
+                    <option value="Patient Care Techs">Patient Care Techs</option>
                 </select>
             </div>
             <div class="col">
