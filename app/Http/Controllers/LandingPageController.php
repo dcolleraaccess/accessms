@@ -134,11 +134,74 @@ class LandingPageController extends Controller
             'Other',
         ];
 
+        $SurgicalFirstAssist = [
+            'Surgical First Assistant',
+            'CSFA - Certified Surgical First Assistant',
+        ];
+
+        $AdvancedPracticeProvider = [
+            'General - NP',
+            'ICU / CCU - NP',
+            'ER - NP',
+            'Midwife - NP',
+            'Neonatal - NP',
+            'Psych - NP',
+            'Family Medicine - NP',
+            "Women's Health - NP",
+            "Advanced Oncology - NP",
+            "Adult Gerontology - NP",
+            "CRNA",
+        ];
+
+        $Pharmacy = [
+            'Pharmacist',
+            'Certified Pharmacy Tech',
+            'Certified Pharmacy Tech',
+            'Pharmacy Tech',
+            'Pharmacy Manager',
+        ];
+
+        $Dentistry = [
+            'Dentist',
+            'Dental Assistant',
+            'Dental Hygenist',
+        ];
+
+        $PsychologistPsychiatrist = [
+            'Clinical Psychologist',
+            'Neuro Psychologist',
+            'Psychiatrist',
+        ];
+
+        $PhysiciansAssistant = [
+            'Physicians Assistant',
+        ];
+
+
+
         if($selectedProfession == 'RN'){
             return response()->json($RN);
         }
         if($selectedProfession == 'LPN/LVN'){
             return response()->json($LPVLVN);
+        }
+        if($selectedProfession == 'Surgical First Assist'){
+            return response()->json($SurgicalFirstAssist);
+        }
+        if($selectedProfession == 'Advanced Practice Provider'){
+            return response()->json($AdvancedPracticeProvider);
+        }
+        if($selectedProfession == 'Pharmacy'){
+            return response()->json($Pharmacy);
+        }
+        if($selectedProfession == 'Dentistry'){
+            return response()->json($Dentistry);
+        }
+        if($selectedProfession == 'Psychologist / Psychiatrist'){
+            return response()->json($PsychologistPsychiatrist);
+        }
+        if($selectedProfession == 'Physicians Assistant'){
+            return response()->json($PhysiciansAssistant);
         }
     }
 }

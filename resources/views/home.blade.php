@@ -53,6 +53,12 @@
                     <option selected hidden>Professions</option>
                     <option value="RN">RN</option>
                     <option value="LPN/LVN">LPN/LVN</option>
+                    <option value="Surgical First Assist">Surgical First Assist</option>
+                    <option value="Advanced Practice Provider">Advanced Practice Provider</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Dentistry">Dentistry</option>
+                    <option value="Psychologist / Psychiatrist">Psychologist / Psychiatrist</option>
+                    <option value="Physicians Assistant">Physicians Assistant</option>
                 </select>
             </div>
             <div class="col">
@@ -61,7 +67,7 @@
                 </select>
             </div>
             <div class="col-auto">
-                <button class="btn btn-dark" type="button">Search</button>
+                <a href="" class="btn btn-dark" type="button" id="searchbutton" target="_empty">Search</a>
             </div>
 
         </div>
@@ -292,6 +298,12 @@
 @push('jsscripts')
 <script>
     $(document).ready(function () {
+        var $searchButton = $('#searchbutton');
+
+        $('#specialties').change(function () {
+            updateSearchButtonHref();
+        });
+
         $('#professions').change(function () {
             var selectedProfession = $(this).val();
 
@@ -310,6 +322,20 @@
                 });
             });
         });
+
+        function updateSearchButtonHref() {
+            var selectedProfession = $('#professions').val().toLowerCase();
+            var selectedSpecialty = $('#specialties').val().toLowerCase();
+
+            selectedSpecialty = selectedSpecialty.replace(/\s+/g, '-');
+            // Update the href based on the selected values
+            var href = 'https://jobs.accesshealthcarestaffing.com/?_sft_profession=' + encodeURIComponent(selectedProfession) +
+                       '&_sft_specialty=' + encodeURIComponent(selectedSpecialty);
+
+            $searchButton.attr('href', href);
+        }
     });
+
+
 </script>
 @endpush
