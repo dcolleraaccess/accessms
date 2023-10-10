@@ -177,7 +177,46 @@ class LandingPageController extends Controller
             'Physicians Assistant',
         ];
 
+        $RadiologySonographer = [
+            'Cath LabTech',
+            'CT Tech',
+            'Dosimetrist',
+            'Echo Tech',
+            'EEG Tech',
+            'EKG Tech',
+            'EP Tech',
+            'IR Tech',
+            'Mammo Tech',
+            'Monitor / Telemetry Tech',
+            'MRI Tech',
+            'Sonographer / Ultrasound Tech',
+            'Nuclear Med Tech',
+            'Radiation Therapist',
+            'Special Procedures Tech',
+            'Cardiac Sonographer',
+            'Vascular Tech',
+            'Cardiovascular Tech',
+            'X-Ray Tech',
+            'General / Other',
+            'Polysomographic Tech',
+        ];
 
+        $Laboratory = [
+            'CLS/MLS/MT',
+            'MLT',
+            'Lab Assistant / Coordinator',
+            'Phlebotomist',
+            'Cytotech',
+            'Histo Tech',
+            'Certified Histo Tech',
+            'Lab Manager',
+            'Pathologist',
+            'Pathology Assistant',
+            'Drug Safety',
+            'Histology Manager',
+            'Clinical Research Coordinator',
+            'Senior Clinical Manager',
+        ];
 
         if($selectedProfession == 'RN'){
             return response()->json($RN);
@@ -202,6 +241,12 @@ class LandingPageController extends Controller
         }
         if($selectedProfession == 'Physicians Assistant'){
             return response()->json($PhysiciansAssistant);
+        }
+        if($selectedProfession == 'Radiology / Sonographer'){
+            return response()->json($RadiologySonographer);
+        }
+        if($selectedProfession == 'Laboratory'){
+            return response()->json($Laboratory);
         }
     }
 }

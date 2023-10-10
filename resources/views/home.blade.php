@@ -59,6 +59,8 @@
                     <option value="Dentistry">Dentistry</option>
                     <option value="Psychologist / Psychiatrist">Psychologist / Psychiatrist</option>
                     <option value="Physicians Assistant">Physicians Assistant</option>
+                    <option value="Radiology / Sonographer">Radiology / Sonographer</option>
+                    <option value="Laboratory">Laboratory</option>
                 </select>
             </div>
             <div class="col">
