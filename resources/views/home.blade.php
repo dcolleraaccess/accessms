@@ -28,12 +28,15 @@
         </div>
     </div>
 
-    <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 64px; font-family: 'Times New Roman';" class="mb-0 pb-0">You Need Access to Get In</h1>
-        <h4 style="font-family: 'Times New Roman';">Unlock Opportunities with your Dependable Healthcare Staffing
+    <div style="position:absolute; bottom: 10%; left:5%; max-width: 45%; z-index: 10" class="text-white">
+        <h1 style="font-size: 4vw; font-family: 'Times New Roman';" class="mb-0 pb-0">You Need Access to Get In</h1>
+        <h4 style="font-size: 1.5vw; font-family: 'Times New Roman';">Unlock Opportunities with your Dependable
+            Healthcare
+            Staffing
             Partner
         </h4>
-        <p style="font-family: 'Raleway';">Connecting Healthcare Professionals with Quality Opportunities since 2015
+        <p style="font-size: 1vw; font-family: 'Raleway';">Connecting Healthcare Professionals with Quality
+            Opportunities since 2015
         </p>
     </div>
 </div>
@@ -46,19 +49,15 @@
                 Search Jobs
             </h3>
             <div class="col">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Specialties</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                <select class="form-select" aria-label="Default select example" id="professions">
+                    <option selected hidden>Professions</option>
+                    <option value="RN">RN</option>
+                    <option value="LPN/LVN">LPN/LVN</option>
                 </select>
             </div>
             <div class="col">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Location</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                <select class="form-select" aria-label="Default select example" id="specialties">
+                    <option selected hidden>Specialties</option>
                 </select>
             </div>
             <div class="col-auto">
@@ -289,3 +288,28 @@
 
 
 @endsection
+
+@push('jsscripts')
+<script>
+    $(document).ready(function () {
+        $('#professions').change(function () {
+            var selectedProfession = $(this).val();
+
+            // Make an AJAX request to fetch specialties
+            $.get('/fetch-specialties', { profession: selectedProfession }, function (data) {
+                // Assuming data is an array of specialties
+                var $specialtiesSelect = $('#specialties');
+                $specialtiesSelect.empty();
+
+                // Add the fetched specialties
+                $.each(data, function (index, specialty) {
+                    $specialtiesSelect.append($('<option>', {
+                        value: specialty,
+                        text: specialty
+                    }));
+                });
+            });
+        });
+    });
+</script>
+@endpush

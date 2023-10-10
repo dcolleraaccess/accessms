@@ -18,7 +18,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="/about" role="button" aria-expanded="false">
+                        <a class="nav-link" href="/about" role="button" data-bs-toggle="dropdown">
                             About
                         </a>
                         <ul class="dropdown-menu font-weight-bold">
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="/resources" role="button">
+                        <a class="nav-link" href="/resources" role="button">
                             Resources
                         </a>
                         <ul class="dropdown-menu">
