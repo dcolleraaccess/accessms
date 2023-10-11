@@ -42,7 +42,7 @@
 </div>
 
 
-<section style="background-color: #FFFF00">
+<section style="background-color: #ffff80">
     <div class="container-xl py-3">
         <div class="row">
             <h3 class="fw-bold col">
@@ -94,8 +94,9 @@
                 <p>Are you a passionate healthcare professional ready to embark on the adventure of a lifetime? Discover
                     open positions with us and take your career to new heights. Our platform connects talented
                     professionals like you with incredible assignments across the country. Unlike other agencies, we
-                    offer a true family feel and work with you to find the placement that is right for you. We offer one
-                    of the top leading pay packages in the industry and we are ready to get you the money you deserve!
+                    were founded by nurses and want healthcare professionals to work "with" us, not "for" us. We offer
+                    one of the top leading pay packages in the industry and we are ready to get you the money you
+                    deserve
                 </p>
             </center>
         </div>
@@ -112,7 +113,7 @@
                     valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
                     encountering a variety of medical conditions and patient populations, thus sharpening your clinical
                     care skills and judgment. </p>
-                <button class="btn mb-4" style="background-color: #FFFF00">See More</button>
+                <button class="btn mb-4" style="background-color: #FFFF80">See More</button>
             </div>
         </div>
 
@@ -127,7 +128,7 @@
                     close to friends and family while infusing your career with excitement at Access Healthcare!
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
                 </div>
             </div>
             <div class="col-6">
@@ -148,7 +149,7 @@
                     intimidating job search process by assessing your skills and experience, providing personalized
                     guidance to link you with potential employers, and advocating on your behalf every step of the way.
                 </p>
-                <button class="btn  mb-4" style="background-color: #FFFF00">See More</button>
+                <button class="btn  mb-4" style="background-color: #FFFF80">See More</button>
             </div>
         </div>
 
@@ -156,15 +157,14 @@
             <div class="col-6 ">
                 <h1 class="text-end">Locum Tenens</h1>
                 <p class="text-end">
-                    Access Healthcare specializes in connecting healthcare professionals, including physicians, nurse
-                    practitioners, physician assistants, and various clinical specialists, with opportunities
-                    nationwide. Are you interested in reaping the rewards of flexibility, a wide range of experiences,
-                    and competitive compensation? Our Locum Tenens positions have become a preferred option for
-                    healthcare providers who prioritize the autonomy to select assignments and discover diverse
-                    healthcare environments.
+                    Access Healthcare specializes in connecting healthcare professionals, including physicians and
+                    advanced practice providers, with opportunities nationwide.
+                    Locum Tenens is the best opportunity to have flexibility in your work schedule while being able to
+                    supplement your income and be able to explore and experience new hospital systems and geographic
+                    locations! Join us and carve your path from a short to a long-term career opportunity.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
                 </div>
             </div>
             <div class="col-6">
@@ -230,7 +230,7 @@
     </div>
 </section>
 
-<section style="background-color: #ffff00">
+<section style="background-color: #ffff80">
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center">
 
@@ -271,7 +271,7 @@
                     latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn custom-menu mb-4" style="background-color: #FFFF00">See More</button>
+                    <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
                     <img src=" {{asset('img/youtube.png')}}" alt="..." style="max-width: 50%" class="custom-menu">
                 </div>
 
@@ -290,10 +290,10 @@
 
 
     <div class="container-xl py-3 text-white">
-        <div class="py-5 my-5">
+        <div class="py-5 my-5 container">
             <center>
                 <h1>Unlock Rewards with<br>Our Referral Program!</h1>
-                <p>
+                <p style="max-width: 800px">
                     At Access Healthcare, we believe that great things are meant to be shared. That's why we're excited
                     to introduce our Referral Program, designed to reward you for spreading the word about our
                     exceptional tea. Earn up to $1000 when your referral completes their first assignment.

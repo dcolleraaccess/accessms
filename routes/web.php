@@ -28,5 +28,9 @@ Route::get('/subcontent', function(){
     return view('subcontent');
 });
 
+Route::get('/subcontent2', function(){
+    return view('subcontent2');
+});
+
 Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
 

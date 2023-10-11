@@ -63,6 +63,7 @@
             object-fit: cover;
         }
 
+        /* Hover Nav */
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {
                 display: none;
@@ -79,6 +80,7 @@
             }
         }
 
+        /* Image Crop */
         @media (min-width: 1280px) {
             .carousel-item:first-child img {
                 object-position: 0px -0px;
