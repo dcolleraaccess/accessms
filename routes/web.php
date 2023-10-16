@@ -29,7 +29,7 @@ Route::get('/subcontent', function(){
     return view('subcontent');
 });
 
-Route::get('/subcontent2', function(){
+Route::get('/blog', function(){
     return view('subcontent2');
 });
 
