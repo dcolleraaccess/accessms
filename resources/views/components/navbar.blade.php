@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav custom-menu fw-bolder">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://jobs.accesshealthcarestaffing.com/">Open Jobs</a>
+                        <a class="nav-link" href="https://nexus-leap.laboredge.com/access/jobs">Open Jobs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
