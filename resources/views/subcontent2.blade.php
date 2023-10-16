@@ -11,60 +11,86 @@
         </div>
     </div>
 
-    {{-- <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Title Here</h1>
-        <h1 style="font-family: 'Times New Roman';">Why not <span
-                style=" font: italic 1em Georgia, Times, 'Times New Roman' , serif;">both</span>?</h1>
+    <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
+        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Access Blogs</h1>
         <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals
             love working
             with
             us while discovering some of
             the best opportunities in the industry
         </p>
-    </div> --}}
+    </div>
 </div>
 
 <section>
     <div class="container-xl py-5 ">
 
         <div class="my-5">
-            <center>
-                <h1>Title Here</h1>
-            </center>
-            <div class="row gx-2">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Title Here</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, alias nostrum animi
-                                eum voluptate architecto quisquam totam neque excepturi quos?
-                            </p>
+            <div class="row gy-4">
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{{asset('img/1 - Traveler on Boat Deck Exploring.jpg')}}"
+                                    class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h1 class="card-title">Card title</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Title Here</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, alias nostrum animi
-                                eum voluptate architecto quisquam totam neque excepturi quos?
-                            </p>
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{{asset('img/1 - Traveler on Boat Deck Exploring.jpg')}}"
+                                    class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h1 class="card-title">Card title</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Title Here</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, alias nostrum animi
-                                eum voluptate architecto quisquam totam neque excepturi quos?
-                            </p>
+
+                @php
+                $blogresult = DB::table('blog')
+                ->get()
+                ->toArray();
+                @endphp
+
+                @foreach ($blogresult as $blog)
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{{asset('storage/blog/' . $blog->image)}}" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h1 class="card-title">{{$blog->title}}</h1>
+                                    <p class="card-text">{{$blog->content}}</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                @endforeach
             </div>
         </div>
 

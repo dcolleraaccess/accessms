@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,13 @@ Route::get('/subcontent', function(){
 Route::get('/subcontent2', function(){
     return view('subcontent2');
 });
+
+Route::get('/adminblog', function(){
+    return view('admin.blogpost');
+});
+
+
+Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
 
 Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
 
