@@ -10,23 +10,10 @@
             </div>
         </div>
     </div>
-
-    {{-- <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Title Here</h1>
-        <h1 style="font-family: 'Times New Roman';">Why not <span
-                style=" font: italic 1em Georgia, Times, 'Times New Roman' , serif;">both</span>?</h1>
-        <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals
-            love working
-            with
-            us while discovering some of
-            the best opportunities in the industry
-        </p>
-    </div> --}}
 </div>
 
 <section>
     <div class="container-xl py-5 ">
-
 
         <div class="row d-flex align-items-center py-4 my-4">
 
@@ -46,7 +33,6 @@
     </div>
 
 </section>
-
 
 
 <section>
@@ -80,7 +66,5 @@
 
     </div>
 </section>
-
-
 
 @endsection
