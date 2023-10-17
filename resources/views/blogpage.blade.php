@@ -24,7 +24,6 @@
 
 <section>
     <div class="container-xl py-5 ">
-
         <center>
             <img src="{{asset('storage/blog/' . $article->image)}}" style="max-height:400px"
                 class="img-fluid rounded-4 mb-5">

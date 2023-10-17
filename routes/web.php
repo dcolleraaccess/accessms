@@ -39,6 +39,9 @@ Route::get('/adminblog', function(){
     return view('admin.blogpost');
 });
 
+Route::get('/referrals', function(){
+    return view('referral');
+});
 
 Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
 
