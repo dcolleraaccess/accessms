@@ -33,6 +33,8 @@ Route::get('/blog', function(){
     return view('subcontent2');
 });
 
+Route::get('/article', [BlogController::class, 'blogpage'])->name('blogpage');
+
 Route::get('/adminblog', function(){
     return view('admin.blogpost');
 });

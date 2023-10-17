@@ -40,4 +40,18 @@ class BlogController extends Controller
 
         return $photo;
     }
+
+    public function blogpage(Request $request){
+        $query = $request->query();
+
+        $data = array();
+
+        $data['article'] = DB::table('blog')
+            ->where('id', $query['id'])
+            ->first();
+
+
+        // dd($data);
+        return view('blogpage', $data);
+    }
 }
