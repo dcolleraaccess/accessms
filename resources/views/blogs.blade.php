@@ -13,12 +13,6 @@
 
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
         <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Access Blogs</h1>
-        <p style="font-family: 'Raleway';">Explore our site to discover why our Healthcare Professionals
-            love working
-            with
-            us while discovering some of
-            the best opportunities in the industry
-        </p>
     </div>
 </div>
 
