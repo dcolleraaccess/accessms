@@ -15,7 +15,6 @@ class BlogController extends Controller
 
         $input = $request->input();
 
-        // dd($input);
         DB::table('blog')
             ->insert([
                 'image' => $this->imageHandler($request->file('image'), $input['title']),
@@ -50,8 +49,6 @@ class BlogController extends Controller
             ->where('id', $query['id'])
             ->first();
 
-
-        // dd($data);
         return view('blogpage', $data);
     }
 
@@ -59,12 +56,6 @@ class BlogController extends Controller
     {
         $content = $request->input('content');
 
-        // Use dd to inspect the submitted content
         dd($content);
-
-        // You can handle the content and save it to the database or perform other actions here
-        // Example: Post::create(['content' => $content]);
-
-        // Redirect or return a response as needed
     }
 }
