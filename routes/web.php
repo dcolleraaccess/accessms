@@ -33,17 +33,23 @@ Route::get('/blog', function(){
     return view('subcontent2');
 });
 
+Route::get('/blog2', function(){
+    return view('blogs');
+});
+
 Route::get('/article', [BlogController::class, 'blogpage'])->name('blogpage');
 
 Route::get('/adminblog', function(){
     return view('admin.blogpost');
 });
 
+
 Route::get('/referrals', function(){
     return view('referral');
 });
 
 Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
+Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost ');
 
 Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
 

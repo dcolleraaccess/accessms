@@ -13,9 +13,11 @@ return new class extends Migration
     {
         Schema::create('blog', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('image');
             $table->string('title');
             $table->text('content');
+            $table->string('category');
+            $table->string('image')->nullable();
+            $table->string('status')->default('active');
             $table->timestamps();
         });
     }

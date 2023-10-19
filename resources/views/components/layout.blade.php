@@ -152,16 +152,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Last updated: May 11, 2022
-
+                    Last updated: May 11, 2022<br>
+                    <br>
                     This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of
                     Your information when You use the Service and tells You about Your privacy rights and how the law
-                    protects You.
-
+                    protects You.<br>
+                    <br>
                     We use Your Personal data to provide and improve the Service. By using the Service, You agree to the
                     collection and use of information in accordance with this Privacy Policy. This Privacy Policy has
-                    been created with the help of the TermsFeed Privacy Policy Generator.
-
+                    been created with the help of the TermsFeed Privacy Policy Generator.<br>
+                    <br>
                     Interpretation and Definitions
                     Interpretation
                     The words of which the initial letter is capitalized have meanings defined under the following

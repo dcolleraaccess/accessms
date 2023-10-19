@@ -54,4 +54,17 @@ class BlogController extends Controller
         // dd($data);
         return view('blogpage', $data);
     }
+
+    public function savePost(Request $request)
+    {
+        $content = $request->input('content');
+
+        // Use dd to inspect the submitted content
+        dd($content);
+
+        // You can handle the content and save it to the database or perform other actions here
+        // Example: Post::create(['content' => $content]);
+
+        // Redirect or return a response as needed
+    }
 }

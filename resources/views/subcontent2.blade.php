@@ -31,6 +31,8 @@
 
                 @php
                 $blogresult = DB::table('blog')
+                ->where('status', 'active')
+                ->orderBy('id', 'desc')
                 ->get()
                 ->toArray();
                 @endphp
@@ -40,12 +42,18 @@
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="{{asset('storage/blog/' . $blog->image)}}" class="img-fluid rounded-start">
+                                <img src="{{ asset('storage/blog/' . $blog->image) }}" class="rounded-start"
+                                    style="height: 100%; min-height: 320px; max-height:320px; width: 100%; object-fit: cover;">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
-                                    <h1 class="card-title">{{$blog->title}}</h1>
-                                    <p class="card-text">{{$blog->content}}</p>
+                                <div class="card-body p-4">
+                                    <h2 class="card-title">{{$blog->title}}</h2>
+                                    <div class="card-text"
+                                        style="max-height: 5.8em; overflow: hidden; word-wrap: break-word; text-overflow: ellipsis;">
+                                        {!! str_replace(['<br>', '<b>', '</b>', 'src', '</p>', '<p>'], [' ', '', '',
+                                            '', '', ''],
+                                            $blog->content) !!}
+                                    </div>
                                     <p class="card-text"><small class="text-body-secondary">{{
                                             \Carbon\Carbon::parse($blog->created_at)->diffForHumans() }}</small></p>
                                     <a href="/article?id={{$blog->id}}" class="btn"

@@ -30,8 +30,7 @@
             <h1>{{$article->title}}</h1>
         </center>
         <div style="padding-left: 100px; padding-right: 100px">
-            <p>{{$article->content}}</p>
-
+            {!! $article->content !!}
         </div>
     </div>
 
