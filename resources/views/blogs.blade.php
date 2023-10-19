@@ -79,31 +79,36 @@
                         <hr>
                         Categories:
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input category-checkbox" type="checkbox" value="Nurses in the News"
+                                id="category1">
                             <label class="form-check-label" for="flexCheckDefault">
                                 Nurses in the News
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input category-checkbox" type="checkbox" value="News"
+                                id="category2">
                             <label class="form-check-label" for="flexCheckDefault">
                                 News
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input category-checkbox" type="checkbox"
+                                value="Tips and Inspiration" id="category3">
                             <label class="form-check-label" for="flexCheckDefault">
                                 Tips and Inspiration
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input category-checkbox" type="checkbox"
+                                value="Team Member Spotlight" id="category4">
                             <label class="form-check-label" for="flexCheckDefault">
                                 Team Member Spotlight
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input category-checkbox" type="checkbox" value="Newsletter"
+                                id="category5">
                             <label class="form-check-label" for="flexCheckDefault">
                                 Newsletter
                             </label>
@@ -125,11 +130,19 @@
             createSearchQuery();
         })
 
+        $('.category-checkbox').change(function () {
+            createSearchQuery();
+        });
+
         function createSearchQuery(){
             let title = searchtitle.val();
+            let selectedCategories = [];
 
+            $('.category-checkbox:checked').each(function () {
+                selectedCategories.push($(this).val());
+            });
 
-            $.get('/fetchblog', {title: title}, function(data){
+            $.get('/fetchblog', {title: title, categories: selectedCategories}, function(data){
                 let container = $('#blogContainer');
                 container.empty();
 
@@ -137,7 +150,7 @@
                     let blogCard = $('<div class="card mb-3">' +
                         '<div class="row g-0">' +
                         '<div class="col-md-4">' +
-                            '<img src="{{ asset('storage/blog/') }}/' + blog.image + '" class="rounded-start" style="height: 100%; min-height: 290px; max-height:290px; width: 100%; object-fit: cover;">' +
+                            '<img src="{{ asset('storage/blog/') }}/' + blog.image + '" class="rounded-start" style="height: 100%; min-height: 300px; max-height:300px; width: 100%; object-fit: cover;">' +
                         '</div>' +
                         '<div class="col-md-8">' +
                         '<div class="card-body p-4">' +
@@ -153,7 +166,6 @@
                         '</div>' +
                         '</div>');
 
-                    // Append the blog card to the container
                     container.append(blogCard);
                 });
             });

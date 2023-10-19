@@ -63,16 +63,21 @@ class BlogController extends Controller
     public function fetchblog(Request $request){
         $query = $request->query();
 
-        $blogresult = DB::table('blog')
+        $blogQuery = DB::table('blog')
             ->where('status', 'active')
-            ->where('title', 'like', '%' . $query['title'] . '%')
+            ->where('title', 'like', '%' . $query['title'] . '%');
+
+        if (isset($query['categories']) && is_array($query['categories'])) {
+            $blogQuery->whereIn('category', $query['categories']);
+        }
+
+        $blogresult = $blogQuery
             ->orderBy('id', 'desc')
             ->get()
             ->toArray();
-
-
         foreach ($blogresult as $blog) {
             $blog->content = str_replace(['<br>', '<b>', '</b>', 'src', '</p>', '<p>'], [' ', '', '', '', '', ''], $blog->content);
+
             $blog->created_at = Carbon::parse($blog->created_at)->diffForHumans();
         }
 
