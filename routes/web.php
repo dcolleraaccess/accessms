@@ -30,7 +30,7 @@ Route::get('/subcontent', function(){
 });
 
 Route::get('/blog', function(){
-    return view('subcontent2');
+    return view('blogs');
 });
 
 Route::get('/blog2', function(){
@@ -52,4 +52,5 @@ Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
 Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost ');
 
 Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
+Route::get('/fetchblog', [BlogController::class, 'fetchblog'])->name('fetchblog');
 

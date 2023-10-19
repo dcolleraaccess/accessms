@@ -58,4 +58,24 @@ class BlogController extends Controller
 
         dd($content);
     }
+
+
+    public function fetchblog(Request $request){
+        $query = $request->query();
+
+        $blogresult = DB::table('blog')
+            ->where('status', 'active')
+            ->where('title', 'like', '%' . $query['title'] . '%')
+            ->orderBy('id', 'desc')
+            ->get()
+            ->toArray();
+
+
+        foreach ($blogresult as $blog) {
+            $blog->content = str_replace(['<br>', '<b>', '</b>', 'src', '</p>', '<p>'], [' ', '', '', '', '', ''], $blog->content);
+            $blog->created_at = Carbon::parse($blog->created_at)->diffForHumans();
+        }
+
+        return response()->json($blogresult);
+    }
 }

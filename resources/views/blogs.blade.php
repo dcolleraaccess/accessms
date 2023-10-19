@@ -38,13 +38,14 @@
                         ->toArray();
                         @endphp
 
-                        @foreach ($blogresult as $blog)
-                        <div>
+
+                        <div id="blogContainer">
+                            @foreach ($blogresult as $blog)
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <img src="{{ asset('storage/blog/' . $blog->image) }}" class="rounded-start"
-                                            style="height: 100%; min-height: 290px; max-height:290px; width: 100%; object-fit: cover;">
+                                            style="height: 100%; min-height: 300px; max-height:300px; width: 100%; object-fit: cover;">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body p-4">
@@ -65,15 +66,14 @@
                                     </div>
                                 </div>
                             </div>
+                            @endforeach
                         </div>
-                        @endforeach
                     </div>
                     <div class="col-3">
                         Search Article:
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username"
-                                aria-label="Article Title" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                            <input type="text" class="form-control" placeholder="Article Title" id="searchtitle">
+                            <button class="btn btn-outline-secondary" type="button" id="searchbutton"><i
                                     class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
                         <hr>
@@ -110,14 +110,55 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
     </div>
-
 </section>
-
-
 @endsection
+
+@push('jsscripts')
+<script>
+    $(document).ready(function(){
+        const searchtitle = $('#searchtitle');
+
+        $('#searchbutton').on('click', function(){
+            createSearchQuery();
+        })
+
+        function createSearchQuery(){
+            let title = searchtitle.val();
+
+
+            $.get('/fetchblog', {title: title}, function(data){
+                let container = $('#blogContainer');
+                container.empty();
+
+                data.forEach(function (blog) {
+                    let blogCard = $('<div class="card mb-3">' +
+                        '<div class="row g-0">' +
+                        '<div class="col-md-4">' +
+                            '<img src="{{ asset('storage/blog/') }}/' + blog.image + '" class="rounded-start" style="height: 100%; min-height: 290px; max-height:290px; width: 100%; object-fit: cover;">' +
+                        '</div>' +
+                        '<div class="col-md-8">' +
+                        '<div class="card-body p-4">' +
+                        '<h2 class="card-title">' + blog.title + '</h2>' +
+                        '<div class="card-text" style="max-height: 3em; overflow: hidden; word-wrap: break-word; text-overflow: ellipsis;">' +
+                        blog.content +
+                        '</div>' +
+                        '<p class="card-text"><small class="text-body-secondary">' + blog.created_at + '</small></p>' +
+                        '<a href="/article?id=' + blog.id + '" class="btn" style="background-color: #FFFF80">Read More</a>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>');
+
+                    // Append the blog card to the container
+                    container.append(blogCard);
+                });
+            });
+        }
+    });
+
+</script>
+@endpush
