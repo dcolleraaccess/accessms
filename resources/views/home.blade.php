@@ -51,26 +51,15 @@
             <div class="col">
                 <select class="form-select" aria-label="Default select example" id="professions">
                     <option selected hidden>Professions</option>
-                    <option value="RN">RN</option>
-                    <option value="LPN/LVN">LPN/LVN</option>
-                    <option value="Surgical First Assist">Surgical First Assist</option>
-                    <option value="Advanced Practice Provider">Advanced Practice Provider</option>
-                    <option value="Pharmacy">Pharmacy</option>
-                    <option value="Dentistry">Dentistry</option>
-                    <option value="Psychologist / Psychiatrist">Psychologist / Psychiatrist</option>
-                    <option value="Physicians Assistant">Physicians Assistant</option>
-                    <option value="Radiology / Sonographer">Radiology / Sonographer</option>
-                    <option value="Laboratory">Laboratory</option>
-                    <option value="Therapy/Rehab">Therapy/Rehab</option>
-                    <option value="Dietician">Dietician</option>
-                    <option value="CNA / Medication Aide">CNA / Medication Aide</option>
-                    <option value="Patient Care Techs">Patient Care Techs</option>
-                    <option value="Sterile Processing">Sterile Processing</option>
-                    <option value="Surgical / Scrub Tech">Surgical / Scrub Tech</option>
-                    <option value="Social Worker">Social Worker</option>
-                    <option value="Allied - Other">Allied - Other</option>
-                    <option value="Physician / Doctor">Physician / Doctor</option>
-                    <option value="Admin / Non-Clerical">Admin / Non-Clerical</option>
+                    @php
+                    $professions = DB::table('professions')
+                    ->get()
+                    ->toArray();
+                    @endphp
+
+                    @foreach ($professions as $pro)
+                    <option value="{{$pro->id}}">{{$pro->name}}</option>
+                    @endforeach
                 </select>
             </div>
             <div class="col">
@@ -328,22 +317,24 @@
                 // Add the fetched specialties
                 $.each(data, function (index, specialty) {
                     $specialtiesSelect.append($('<option>', {
-                        value: specialty,
-                        text: specialty
+                        value: specialty.id,
+                        text: specialty.name
                     }));
                 });
             });
         });
 
         function updateSearchButtonHref() {
-            var selectedProfession = $('#professions').val().toLowerCase();
-            var selectedSpecialty = $('#specialties').val().toLowerCase();
+            var selectedProfession = $('#professions').val();
+            var selectedSpecialty = $('#specialties').val();
 
             selectedSpecialty = selectedSpecialty.replace(/\s+/g, '-');
-            // Update the href based on the selected values
-            var href = 'https://jobs.accesshealthcarestaffing.com/?_sft_profession=' + encodeURIComponent(selectedProfession) +
-                       '&_sft_specialty=' + encodeURIComponent(selectedSpecialty);
 
+            var href = "https://nexus-leap.laboredge.com/access/jobs?prof=391&spec=" + selectedSpecialty +"highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1"
+            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession +'&spec=' + selectedSpecialty;
+            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession +'&spec=' + selectedSpecialty +'&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
+            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession + '&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
+            // var href = 'https://nexus-leap.laboredge.com/access/jobs?spec=' + selectedSpecialty +'&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
             $searchButton.attr('href', href);
         }
     });
