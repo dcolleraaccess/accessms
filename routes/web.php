@@ -18,39 +18,30 @@ use App\Http\Controllers\BlogController;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
 
-
-Route::get('/job', function(){
-    return view('jobboard');
-});
-
-
-Route::get('/subcontent', function(){
-    return view('subcontent');
-});
 
 Route::get('/blog', function(){
     return view('blogs');
 });
-
-Route::get('/blog2', function(){
-    return view('blogs');
-});
-
+Route::get('/fetchblog', [BlogController::class, 'fetchblog'])->name('fetchblog');
 Route::get('/article', [BlogController::class, 'blogpage'])->name('blogpage');
-
-Route::get('/adminblog', function(){
-    return view('admin.blogpost');
-});
-
 
 Route::get('/referrals', function(){
     return view('referral');
 });
 
+Route::get('/adminblog', function(){
+    return view('admin.blogpost');
+});
 Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
 Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost ');
 
-Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
-Route::get('/fetchblog', [BlogController::class, 'fetchblog'])->name('fetchblog');
 
+// Route::get('/job', function(){
+//     return view('jobboard');
+// });
+
+// Route::get('/subcontent', function(){
+//     return view('subcontent');
+// });
