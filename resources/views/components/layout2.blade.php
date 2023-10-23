@@ -89,35 +89,6 @@
                 margin-top: 0;
             }
         }
-
-        /* Image Crop */
-        @media (min-width: 1280px) {
-            .carousel-item:first-child img {
-                object-position: 0px -0px;
-            }
-
-            .carousel-item:nth-child(2) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(3) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(4) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(6) img {
-                object-position: 0px -50px;
-            }
-        }
-
-        @media (min-width: 1582px) {
-            .carousel-item:first-child img {
-                object-position: 0px 0px;
-            }
-        }
     </style>
     @yield('styles')
 </head>

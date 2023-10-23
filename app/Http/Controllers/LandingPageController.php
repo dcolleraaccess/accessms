@@ -14,14 +14,11 @@ class LandingPageController extends Controller
     public function fetchSpecialties(Request $request){
         $selectedProfession = $request->query('profession');
 
-        // dd($selectedProfession);
-
         $specialties = DB::table('specialties')
             ->where('profession_id', $selectedProfession)
             ->get()
             ->toArray();
 
             return response()->json($specialties);
-
     }
 }

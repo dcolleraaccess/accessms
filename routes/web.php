@@ -35,13 +35,4 @@ Route::get('/adminblog', function(){
     return view('admin.blogpost');
 });
 Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
-Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost ');
-
-
-// Route::get('/job', function(){
-//     return view('jobboard');
-// });
-
-// Route::get('/subcontent', function(){
-//     return view('subcontent');
-// });
+Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost');
