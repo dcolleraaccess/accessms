@@ -51,12 +51,12 @@
                                                     '', '', ''],
                                                     $blog->content) !!}
                                             </div>
-                                            <p class="card-text text-body-secondary my-2" style="line-height:1.2"><small
-                                                    class="">{{
-                                                    \Carbon\Carbon::parse($blog->created_at)->format('F j, Y')
-                                                    }}</small> <br>
-                                                <span style="font-size:11px">{{
-                                                    \Carbon\Carbon::parse($blog->created_at)->diffForHumans() }}</span>
+                                            <p class="card-text text-body-secondary my-2" style="line-height:1.2">
+                                                <small>{{\Carbon\Carbon::parse($blog->created_at)->format('F j,
+                                                    Y')}}</small><br>
+                                                <span
+                                                    style="font-size:11px">{{\Carbon\Carbon::parse($blog->created_at)->diffForHumans()
+                                                    }}</span>
                                             </p>
                                             <a href="/article?id={{$blog->id}}" class="btn mt-3"
                                                 style="background-color: #FFFF80">Read More</a>
@@ -156,8 +156,10 @@
                         '<div class="card-text" style="max-height: 4.4em; overflow: hidden; word-wrap: break-word; text-overflow: ellipsis;">' +
                         blog.content +
                         '</div>' +
-                        '<p class="card-text"><small class="text-body-secondary">' + blog.created_at + '</small></p>' +
-                        '<a href="/article?id=' + blog.id + '" class="btn" style="background-color: #FFFF80">Read More</a>' +
+                        '<p class="card-text text-body-secondary my-2" style="line-height:1.2"><small>' + blog.created_at_formatted + '</small><br>' +
+                        '<span style="font-size:11px">' + blog.created_at_diff + '</span>' +
+                        '</p>' +
+                        '<a href="/article?id=' + blog.id + '" class="btn mt-3" style="background-color: #FFFF80">Read More</a>' +
                         '</div>' +
                         '</div>' +
                         '</div>' +

@@ -77,8 +77,8 @@ class BlogController extends Controller
             ->toArray();
         foreach ($blogresult as $blog) {
             $blog->content = str_replace(['<br>', '<b>', '</b>', 'src', '</p>', '<p>'], [' ', '', '', '', '', ''], $blog->content);
-
-            $blog->created_at = Carbon::parse($blog->created_at)->diffForHumans();
+            $blog->created_at_formatted = Carbon::parse($blog->created_at)->format('F j, Y');
+            $blog->created_at_diff = Carbon::parse($blog->created_at)->diffForHumans();
         }
 
         return response()->json($blogresult);

@@ -31,6 +31,16 @@ Route::get('/referrals', function(){
     return view('referral');
 });
 
+Route::get('/privacypolicy', function(){
+    return view('privacypolicy');
+});
+
+Route::get('/connect', function(){
+    return view('connectwithus');
+});
+
+
+// Admin Routes
 Route::get('/adminblog', function(){
     return view('admin.blogpost');
 });

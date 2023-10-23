@@ -307,7 +307,7 @@
 
         $('#professions').change(function () {
             var selectedProfession = $(this).val();
-
+            updateSearchButtonHref();
             // Make an AJAX request to fetch specialties
             $.get('/fetch-specialties', { profession: selectedProfession }, function (data) {
                 // Assuming data is an array of specialties
@@ -330,11 +330,7 @@
 
             selectedSpecialty = selectedSpecialty.replace(/\s+/g, '-');
 
-            var href = "https://nexus-leap.laboredge.com/access/jobs?prof=391&spec=" + selectedSpecialty +"highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1"
-            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession +'&spec=' + selectedSpecialty;
-            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession +'&spec=' + selectedSpecialty +'&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
-            // var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession + '&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
-            // var href = 'https://nexus-leap.laboredge.com/access/jobs?spec=' + selectedSpecialty +'&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
+            var href = 'https://nexus-leap.laboredge.com/access/jobs?prof=' + selectedProfession +'&spec=' + selectedSpecialty +'&job=LOCAL,PERM,TRAVEL&highSort=clientName&highSortOr=-1&exclSort=clientName&exclSortOr=-1&featureSort=clientName&featureSortOr=-1'
             $searchButton.attr('href', href);
         }
     });
