@@ -213,7 +213,9 @@
 
         <div class="py-3">
             <center>
-                <button class="btn btn-dark">See More</button>
+                <a href="https://nexus-leap.laboredge.com/access/jobs">
+                    <button class="btn btn-dark">See More</button>
+                </a>
             </center>
         </div>
     </div>
@@ -239,7 +241,9 @@
                         Our commitment to keeping you informed drives us to deliver well-researched, engaging, and
                         informative articles that empower you to make informed decisions about your health.
                     </p>
-                    <button class="btn btn-dark">See More</button>
+                    <a href="https://www.youtube.com/@accesshealthcarellc">
+                        <button class="btn btn-dark">See More</button>
+                    </a>
                 </center>
             </div>
         </div>
@@ -287,7 +291,9 @@
                     to introduce our Referral Program, designed to reward you for spreading the word about our
                     exceptional tea. Earn up to $1000 when your referral completes their first assignment.
                 </p>
-                <button class="btn btn-light">Referral Program</button>
+                <a href="/referrals">
+                    <button class="btn btn-light">Referral Program</button>
+                </a>
             </center>
         </div>
     </div>
