@@ -39,6 +39,10 @@ Route::get('/connect', function(){
     return view('connectwithus');
 });
 
+Route::get('/tjc', function(){
+    return view('jointcommission');
+});
+
 
 // Admin Routes
 Route::get('/adminblog', function(){
