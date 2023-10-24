@@ -117,7 +117,8 @@
         <div>
             <center>
                 <p class="text-white mb-0 py-2" style="font-size: 12px">
-                    Copyright © Access Healthcare Staffing. <a href="privacypolicy">Privacy Policy</a>
+                    Copyright © Access Healthcare Staffing. <a href="privacypolicy" style="color:white">Privacy
+                        Policy</a>
                 </p>
             </center>
         </div>
