@@ -82,11 +82,11 @@
                                 </select>
                             </div>
                             <div class="input-group my-3">
-                                <span class="input-group-text">Preferred Communication</span>
+                                <span class="input-group-text">Preferred Communication*</span>
                                 <select class="form-select" aria-label="Default select example" id="comms">
                                     <option selected>Email</option>
                                     <option>Phone</option>
-                                    <option>Specialties</option>
+                                    <option>Text</option>
                                 </select>
                             </div>
                             <hr>
