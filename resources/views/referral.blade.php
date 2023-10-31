@@ -45,7 +45,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Send a Referral</h3>
                         <form action="" class="mt-4">
-                            <h5>About Your Referral</h5>
+                            <h5>About You</h5>
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Name</span>
                                 <input type="text" class="form-control" placeholder="First Name*">
@@ -61,7 +61,7 @@
                                     placeholder="Phone Number*">
                             </div>
                             <div class="input-group my-3">
-                                <span class="input-group-text">Profession</span>
+                                <span class="input-group-text">Profession*</span>
                                 <select class="form-select" aria-label="Default select example" id="professions">
                                     <option selected hidden>Professions</option>
                                     @php
@@ -76,14 +76,22 @@
                                 </select>
                             </div>
                             <div class="input-group my-3">
-                                <span class="input-group-text">Specialty</span>
+                                <span class="input-group-text">Specialty*</span>
                                 <select class="form-select" aria-label="Default select example" id="specialties">
                                     <option selected hidden>Specialties</option>
                                 </select>
                             </div>
+                            <div class="input-group my-3">
+                                <span class="input-group-text">Preferred Communication</span>
+                                <select class="form-select" aria-label="Default select example" id="comms">
+                                    <option selected>Email</option>
+                                    <option>Phone</option>
+                                    <option>Specialties</option>
+                                </select>
+                            </div>
                             <hr>
 
-                            <h5>About You</h5>
+                            <h5>About Your Referral </h5>
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Name</span>
                                 <input type="text" class="form-control" placeholder="First Name">

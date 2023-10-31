@@ -24,7 +24,7 @@
 
         <div class="row d-flex align-items-center">
             <div class="col-6">
-                <h1>Benefits and Extra</h1>
+                <h1>Benefits and Extras</h1>
                 <h2>You Need Access To Get In</h2>
                 <p>
                     <i>
@@ -98,8 +98,8 @@
                     HOUSING ASSISTANCE
                 </h4>
                 <center>
-                    Customized relocation aid for a seamless move, including financial support.
-                </center>
+                    Assistance in locating both furnished and unfurnished housing options tailored to the duration of
+                    your assignment </center>
             </div>
         </div>
     </div>

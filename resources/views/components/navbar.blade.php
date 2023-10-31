@@ -44,7 +44,7 @@
                                     href="https://myapps.paychex.com/landing_remote/login.do?lang=en">View
                                     Paystubs</a></li>
                             <li><a class="dropdown-item py-2" href="/referrals">Referral Program</a></li>
-                            <li><a class="dropdown-item py-2" href="/cultureofwellness">Benefits and Extra</a></li>
+                            <li><a class="dropdown-item py-2" href="/benefits">Benefits and Extras</a></li>
                             <li><a class="dropdown-item py-2" href="/statenursinglicense">State Nursing License
                                     Requirements</a></li>
                         </ul>

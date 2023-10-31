@@ -43,8 +43,8 @@ Route::get('/tjc', function(){
     return view('jointcommission');
 });
 
-Route::get('/cultureofwellness', function(){
-    return view('cultureofwellness');
+Route::get('/benefits', function(){
+    return view('benefits');
 });
 
 Route::get('/statenursinglicense', function(){
