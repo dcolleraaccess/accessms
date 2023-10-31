@@ -14,7 +14,7 @@
 
 <section>
     <div class="container-xl mt-5 mb-5 py-3">
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-6">
                 <h1 class="mt-5">Joint Commission</h1>
                 <p>
@@ -50,11 +50,12 @@
                 </ul>
             </div>
             <div class="col-6">
-                <img src="{{asset('img/tjc.jfif')}}" alt="" style="width: 100%">
+                <center>
+                    <img src="{{asset('img/tjc.jfif')}}" alt="" style="width: 70%">
+                </center>
             </div>
         </div>
-
-
     </div>
 </section>
+
 @endsection

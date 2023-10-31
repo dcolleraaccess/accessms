@@ -1,0 +1,104 @@
+@extends('components.layout2');
+
+@section('content')
+{{-- Header with Image --}}
+<div style="position:relative;">
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{asset('img/statenursing.jpg')}}"
+                    style="height:300px;object-fit: cover;object-position: 0px -900px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div class="container-xl mt-5 mb-5 py-3">
+        <h1 class="mt-5">Stat e Nursing License</h1>
+        <p>
+            Access Healthcare makes transitioning to another state to practice as an RN, LPN, or CNA simple,
+            regardless of what state you are currently working in. Whether you want to travel the country or
+            accept a position in the state next door, we have travel nursing jobs and direct hire (full-time)
+            job opportunities available nationwide.
+            <br><br>
+            Questions? Our Recruiters have the most current information about each state’s requirements. Contact
+            us!
+
+        </p>
+        <select name="states" id="states" class="form-select">
+            @php
+            $states = DB::table('statenursing')
+            ->get()
+            ->toArray();
+            @endphp
+
+            @foreach ($states as $state)
+            <option value="{{$state->id}}">{{$state->state}}</option>
+            @endforeach
+        </select>
+        <div class="row my-5">
+            <div class="col-4">
+                <h4>RN</h4>
+                <ul>
+                    <li>
+                        <b>Temp License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Perm License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Fees</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Notes</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Link</b>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h4>LPN</h4>
+                <ul>
+                    <li>
+                        <b>Temp License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Perm License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Fees</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Notes</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Link</b>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h4>CNA</h4>
+                <ul>
+                    <li>
+                        <b>Temp License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Perm License:</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Fees</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Notes</b> 3-5 Days
+                    </li>
+                    <li>
+                        <b>Link</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</section>
+
+@endsection
