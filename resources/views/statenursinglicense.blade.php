@@ -15,7 +15,7 @@
 
 <section>
     <div class="container-xl mt-5 mb-5 py-3">
-        <h1 class="mt-5">Stat e Nursing License</h1>
+        <h1 class="mt-5">State Nursing License</h1>
         <p>
             Access Healthcare makes transitioning to another state to practice as an RN, LPN, or CNA simple,
             regardless of what state you are currently working in. Whether you want to travel the country or
@@ -102,3 +102,15 @@
 </section>
 
 @endsection
+
+@push('jsscripts')
+<script>
+    $(document).ready(function(){
+            var stateSelect = $('#states');
+
+            $('$states').change(function() {
+
+            })
+        })
+</script>
+@endpush
