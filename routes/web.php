@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\StateNursingController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -50,6 +52,7 @@ Route::get('/benefits', function(){
 Route::get('/statenursinglicense', function(){
     return view('statenursinglicense');
 });
+Route::get('/stateinfo', [StateNursingController::class, 'fetchStateInfo'])->name('fetchStateInfo');
 
 // Admin Routes
 Route::get('/adminblog', function(){

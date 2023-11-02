@@ -37,8 +37,8 @@
             <option value="{{$state->id}}">{{$state->state}}</option>
             @endforeach
         </select>
-        <div class="row my-5">
-            <div class="col-4">
+        <div class="row my-5" id="info">
+            <div class="col-4" id="rn-section">
                 <h4>RN</h4>
                 <ul>
                     <li>
@@ -58,7 +58,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-4" id="lpn-section">
                 <h4>LPN</h4>
                 <ul>
                     <li>
@@ -78,7 +78,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-4" id="cna-section">
                 <h4>CNA</h4>
                 <ul>
                     <li>
@@ -106,11 +106,25 @@
 @push('jsscripts')
 <script>
     $(document).ready(function(){
-            var stateSelect = $('#states');
 
-            $('$states').change(function() {
+            updateInfo();
 
+            $('#states').change(function() {
+                updateInfo();
             })
+
+            function updateInfo(){
+                var selectedState = $('#states').val();
+                $.get('/stateinfo', {state:selectedState}, function (data){
+                    $('#info #rn-section').html(data.rn);
+
+                    // Update the LPN section
+                    $('#info #lpn-section').html(data.lpn);
+
+                    // Update the CNA section
+                    $('#info #cna-section').html(data.cna);
+                })
+            }
         })
 </script>
 @endpush
