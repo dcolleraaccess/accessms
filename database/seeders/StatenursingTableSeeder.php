@@ -14,12 +14,12 @@ class StatenursingTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('statenursing')->delete();
-        
+
         \DB::table('statenursing')->insert(array (
-            0 => 
+            0 =>
             array (
                 'cnafees' => 'NA',
             'cnalink' => 'https://dph1.adph.state.al.us/NurseAideRegistry/(S(v343yoifoejr2lrydzh2cw32))/FAQ.aspx#anchor17',
@@ -41,7 +41,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Alabama',
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'cnafees' => '$260-$330',
                 'cnalink' => 'https://www.commerce.alaska.gov/web/portals/5/pub/nua4070.pdf',
@@ -63,7 +63,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Alaska',
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'cnafees' => '$50',
                 'cnalink' => 'https://azbn.boardsofnursing.org/azbn',
@@ -85,7 +85,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Arizona',
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fhumanservices.arkansas.gov%2Fimages%2Fuploads%2Fdms%2Fdms_798.docx',
@@ -102,12 +102,12 @@ class StatenursingTableSeeder extends Seeder
                 'rnfees' => '$100',
                 'rnlink' => 'null',
                 'rnnote' => 'null',
-                'rnperm' => '1 AWeek',
+                'rnperm' => '1 Week',
                 'rntemp' => '1 Week',
                 'state' => 'Arkansas',
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'cnafees' => 'NA',
                 'cnalink' => 'https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/cdph283b.pdf',
@@ -129,7 +129,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'California',
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'cnafees' => '$10',
                 'cnalink' => 'https://apps.colorado.gov/dora/licensing/Default.aspx',
@@ -151,7 +151,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Colorado',
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'cnafees' => '$55',
                 'cnalink' => 'https://oap.prometric.com/CandidateWeb/Login/Login.aspx?ReturnUrl=%2fCandidateWeb%2fforms%2fCTNURS%2fConnecticutNurseAideRegistryApplication.aspx',
@@ -173,7 +173,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Connecticut',
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'cnafees' => '$30',
                 'cnalink' => 'https://www.prometric.com/en-us/clients/nurseaide/documents/delaware/ReciprocityApplication.pdf',
@@ -195,7 +195,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Delaware',
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'cnafees' => '$15',
                 'cnalink' => 'https://doh.dc.gov/sites/default/files/dc/sites/doh/publication/attachments/Nursing_Application_for_Nurse_Aide_Certification_by_Endorsement_-_PDF_Version.pdf',
@@ -217,7 +217,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'District Of Columbia',
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'cnafees' => 'NA',
                 'cnalink' => 'https://floridasnursing.gov/applications/cna-reciprocity-app.pdf',
@@ -239,7 +239,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Florida',
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.mmis.georgia.gov/portal/ResourceProxy.aspx?iCProxyTo=MS1BdHRhY2htZW50cy9Gb3Jtcy9SZWNpcHJvY2l0eSUyMEZvcm0ucGRm',
@@ -261,7 +261,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Georgia',
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'cnafees' => '$25',
                 'cnalink' => 'https://www.prometric.com/en-us/clients/nurseaide/documents/hawaii/HI_CNA_APP.pdf',
@@ -283,7 +283,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Hawaii',
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'http://healthandwelfare.idaho.gov/Portals/0/Medical/LicensingCertification/CNAOutOfStateTransferForm.pdf',
@@ -305,7 +305,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Idaho',
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'cnafees' => '$25',
                 'cnalink' => 'https://nurseaidetesting.com/out-of-state-cna-application/',
@@ -327,7 +327,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'illinois',
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'cnafees' => '$65',
                 'cnalink' => 'https://www.ivytech.edu/cna/4368.html',
@@ -349,7 +349,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Indiana',
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://dia.iowa.gov/sites/default/files/documents/2016/01/dcw_application.pdf',
@@ -371,7 +371,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Iowa',
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'cnafees' => '$2-',
             'cnalink' => 'https://www.kdads.ks.gov/docs/default-source/survey-certification-and-credentialing-commission/Health-Occupations-Credentialing/certificattion-(cna-hha-cma)/certification-verification/forms/interstate-application-form.pdf',
@@ -393,7 +393,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Kansas',
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://kbn.ky.gov/knar/Pages/reciprocity.aspx',
@@ -415,7 +415,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Kentucky',
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'cnafees' => '$35',
                 'cnalink' => 'http://ldh.la.gov/assets/medicaid/hss/NurseAide/NurseAideTrainingReciprocityForm.pdf',
@@ -437,7 +437,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Louisiana',
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'cnafees' => '$20',
                 'cnalink' => 'https://www.maine.gov/dhhs/dlc/cna/',
@@ -459,7 +459,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Maine',
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'cnafees' => '$20',
                 'cnalink' => 'http://www.mbon.org/Documents/cna-endorsementinfo.pdf',
@@ -481,7 +481,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Maryland',
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.redcross.org/content/dam/redcross/atg/Northeast_Media/Eastern_Mass/Eastern_MA_-_NAT_-_NAT_Reciprocity.pdf',
@@ -503,7 +503,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Massachusetts',
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'cnafees' => 'Fees Vary',
                 'cnalink' => 'https://www.prometric.com/en-us/clients/nurseaide/pages/mi.aspx',
@@ -525,7 +525,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Michigan',
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.health.state.mn.us/facilities/providers/nursingassistant/docs/interstate.pdf',
@@ -547,7 +547,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Minnesota',
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'cnafees' => '$26',
                 'cnalink' => 'https://www.asisvcs.com/publications/pdf/072503.pdf',
@@ -569,7 +569,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Mississippi',
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'cnafees' => 'Fees Vary',
                 'cnalink' => 'http://health.mo.gov/safety/cnaregistry/cna.php#challenge',
@@ -591,7 +591,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Missouri',
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://cna.hhs.mt.gov/datamart/ePass.do',
@@ -613,7 +613,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Montana',
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'cnafees' => '$20 course',
                 'cnalink' => 'http://dhhs.ne.gov/licensure/Pages/Certification-and-Verification.aspx',
@@ -635,7 +635,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Nebraska',
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'cnafees' => '$101',
                 'cnalink' => 'https://nevadanursingboard.org/',
@@ -657,7 +657,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Nevada',
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'cnafees' => '$82',
                 'cnalink' => 'https://www.oplc.nh.gov/nursing/documents/lna-endorsement.pdf',
@@ -679,7 +679,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'New Hampshire',
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'cnafees' => '$30',
                 'cnalink' => 'null',
@@ -701,7 +701,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'New Jersey',
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'null',
@@ -723,7 +723,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'New Mexico',
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'cnafees' => '$50',
                 'cnalink' => 'https://www.prometric.com/en-us/clients/nurseaide/documents/new-york/ny_na_registryapp.pdf',
@@ -745,7 +745,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'New York',
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'cnafees' => '$101',
                 'cnalink' => 'https://www.ncnar.org/index1.jsp',
@@ -767,7 +767,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'North Carolina',
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://services.ndnar.org/lic/cna/apply/',
@@ -789,7 +789,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'North Dakota',
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'http://www.nursing.ohio.gov/forms.htm#ExamEndorseForms',
@@ -811,7 +811,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Ohio',
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.ok.gov/health2/documents/Reciprocity_Application_ODH-735_10-11-2016_vlk_&_%20Affidavit_ODH_301-FILLABLE.pdf',
@@ -833,7 +833,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Oklahoma',
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'cnafees' => '$60',
                 'cnalink' => 'https://osbn.oregon.gov/OBNPortal/DesktopDefault.aspx?tabindex=0&tabid=5&utyp=4',
@@ -855,7 +855,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Oregon',
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'http://www.pearsonvue.com/pa/nurseaides/',
@@ -877,7 +877,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Pennsylvania',
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'cnafees' => '$35',
                 'cnalink' => 'http://health.ri.gov/applications/NursingAssistant.pdf',
@@ -899,7 +899,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Rhode Island',
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.asisvcs.com/publications/pdf/074102.pdf',
@@ -921,7 +921,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'South Carolina',
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.sduap.org/CNA/apply/endorse/index.asp',
@@ -943,7 +943,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'South Dakota',
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'cnafees' => '$20',
                 'cnalink' => 'https://www.pdffiller.com/en/link_to_fill/261126472.htm',
@@ -965,7 +965,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Tennessee',
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://hhs.texas.gov/doing-business-hhs/licensing-credentialing-regulation/credentialing/nurse-aide-registry/nar-forms',
@@ -987,7 +987,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Texas',
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'cnafees' => '$40',
                 'cnalink' => 'http://www.utahcna.com/docs/Reciprocity%20Application.pdf',
@@ -1009,7 +1009,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Utah',
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'cnafees' => '$20',
                 'cnalink' => 'https://cms.sec.state.vt.us:8443/share/s/zSZ87t1_TT2gMVhi5bbYEg',
@@ -1031,7 +1031,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Vermont',
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://www.license.dhp.virginia.gov/apply/',
@@ -1053,7 +1053,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Virginia',
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'cnafees' => '$97',
                 'cnalink' => 'https://www.doh.wa.gov/portals/1/Documents/Pubs/667039.pdf',
@@ -1075,7 +1075,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Washington',
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'https://ohflac.wvdhhr.org/Apps/Forms/NAReciprocity',
@@ -1097,7 +1097,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'West Virginia',
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'cnafees' => 'FREE',
                 'cnalink' => 'http://hdmaster.com/testing/cnatesting/wisconsin/WIformpages/WIforms/9110WI.pdf?_sm_au_=iDVvnVZ84HVkJJtH',
@@ -1119,7 +1119,7 @@ class StatenursingTableSeeder extends Seeder
                 'state' => 'Wisconsin',
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'cnafees' => '$150',
                 'cnalink' => 'http://nursing.state.wy.us/',
@@ -1142,7 +1142,7 @@ class StatenursingTableSeeder extends Seeder
                 'updated_at' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

@@ -3,7 +3,10 @@
 
 @section('styles')
 <style>
-
+    a {
+        text-decoration: none;
+        color: black;
+    }
 </style>
 @endsection
 
@@ -146,58 +149,83 @@
             </center>
         </h1>
         <div class="row gx-5">
-            <div class="col-3 d-flex flex-column align-items-center">
-                <img src="{{asset('img/westin-logo.jpg')}}" style="width:80%">
-                <h6>
-                    <center>
-                        The Westin Princeton at Forrestal Village
-                    </center>
-                </h6>
-            </div>
-            <div class="col-3 d-flex flex-column align-items-center">
-                <img src="{{asset('img/logo-nordic.jpg')}}" style="width:80%">
-                <h6>
-                    <center>
-                        Nordic Naturals
-                    </center>
-                </h6>
 
-                <center>
-                    Discounted price available<br>
-                    (please email with order)
-                </center>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <a style="text-decoration: none; color: black"
+                    href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1619024221266&key=CORP&app=resvlink">
+                    <center>
+                        <img src="{{asset('img/westin-logo.jpg')}}" style="width:80%">
+                    </center>
+                    <h6>
+                        <center>
+                            The Westin Princeton at Forrestal Village
+                        </center>
+                    </h6>
+                </a>
 
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
-                <img src="{{asset('img/logo-hotelengine.jpg')}}" style="width:80%">
-                <h6>
-                    <center>
-                        Hotel Engine
-                    </center>
-                </h6>
 
-                <center>
-                    Hotel Engine is an exclusive online hotel booking platform built specifically for business and
-                    workforce travel.
-                </center>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <a style="text-decoration: none; color:black"
+                    href="https://nordic-naturals.dcatalog.com/r/Order-Form/?page=1">
+                    <center>
+                        <img src="{{asset('img/logo-nordic.jpg')}}" style="width:80%">
+                    </center>
+                    <h6>
+                        <center>
+                            Nordic Naturals
+                        </center>
+                    </h6>
+                    <center>
+                        Discounted price available<br>
+                        (please email with order)
+                    </center>
+                </a>
+
 
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
-                <img src="{{asset('img/logo_avis.jpg')}}" style="width:80%">
-                <h6>
-                    <center>
-                        Avis & Budget Car Rentals
-                    </center>
-                </h6>
 
-                <center>
-                    Our Travelers will receive negotiated rates, Loss Damage Waiver included on business rental, a
-                    Loyalty Status upgrade promotion, and discounts on personal leisure travel.
-                    <br><br>
-                    For Avis / For Budget
-                </center>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <a style="text-decoration: none; color:black" href="https://join.hotelengine.com/join/5bac504">
+                    <center>
+                        <img src="{{asset('img/logo-hotelengine.jpg')}}" style="width:80%">
+                    </center>
+                    <h6>
+                        <center>
+                            Hotel Engine
+                        </center>
+                    </h6>
+                    <center>
+                        Hotel Engine is an exclusive online hotel booking platform built specifically for business and
+                        workforce travel.
+                    </center>
+                </a>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <a style="text-decoration: none; color:black" href="https://www.budget.com/en/corporate/R319700">
+                    <center>
+                        <img src="{{asset('img/logo_avis.jpg')}}" style="width:80%">
+                    </center>
+                    <h6>
+                        <center>
+                            Avis & Budget Car Rentals
+                        </center>
+                    </h6>
+
+                    <center>
+                        Our Travelers will receive negotiated rates, Loss Damage Waiver included on business rental, a
+                        Loyalty Status upgrade promotion, and discounts on personal leisure travel.
+                        <br><br>
+                        For Avis / For Budget
+                    </center>
+
+                </a>
 
             </div>
+
         </div>
     </div>
 </section>
@@ -226,12 +254,16 @@
                 <ul>
                     <li class="my-2">
                         <b>
-                            Life Coaching
+                            <a href="https://www.manifestwithash.com/" style="text-decoration:none; color:black">
+                                Life Coaching
+                            </a>
                         </b>
                     </li>
                     <li class="my-2">
                         <b>
-                            Spiritual Mentoring
+                            <a href="http://peacefulminds.org/" style="text-decoration:none; color:black">
+                                Spiritual Mentoring
+                            </a>
                         </b>
                     </li>
                 </ul>
@@ -257,16 +289,26 @@
         this perk!
         <ul>
             <li class="my-3">
-                American Heart Association Class Finder
+                <a
+                    href="https://ahainstructornetwork.americanheart.org/AHAECC/classConnector.jsp?pid=ahaecc.classconnector.home">
+                    American Heart Association Class Finder
+                </a>
             </li>
             <li class="my-3">
-                NIHSS Certification
+                <a
+                    href="https://secure.trainingcampus.net/uas/modules/trees/windex.aspx?rx=nihss-english.trainingcampus.net">
+                    NIHSS Certification
+                </a>
             </li>
             <li class="my-3">
-                TNCC Certification
+                <a href="https://www.ena.org/education/tncc">
+                    TNCC Certification
+                </a>
             </li>
             <li class="my-3">
-                BLS/ACLS/PALS Certification & Re-certification Courses
+                <a href="http://www.mobile-certifications.com/">
+                    BLS/ACLS/PALS Certification & Re-certification Courses
+                </a>
             </li>
         </ul>
 
@@ -279,13 +321,25 @@
                 </b>
                 <ul>
                     <li class="my-3">
-                        U.S. Department of Health & Human Services – http://www.hhs.gov </li>
+                        <a href="http://www.hhs.gov/">
+                            U.S. Department of Health & Human Services
+                        </a>
+                    </li>
                     <li class="my-3">
-                        U.S. Department of State – http://www.travel.state.gov </li>
+                        <a href="http://www.travel.state.gov/">
+                            U.S. Department of State
+                        </a>
+                    </li>
                     <li class="my-3">
-                        U.S. Citizenship and Immigration Services – http://www.uscis.gov </li>
+                        <a href="http://www.uscis.gov/">
+                            U.S. Citizenship and Immigration Services
+                        </a>
+                    </li>
                     <li class="my-3">
-                        World Health Organization – http://www.who.int </li>
+                        <a href="http://www.who.int">
+                            World Health Organization
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="col-6">
@@ -294,9 +348,14 @@
                 </b>
                 <ul>
                     <li class="my-3">
-                        AMAedHub – https://edhub.ama-assn.org/ </li>
+                        <a href="https://edhub.ama-assn.org/">
+                            AMAedHub
+                        </a>
+                    </li>
                     <li class="my-3">
-                        Medical Education Resources, Inc. (MER) http://www.mer.org/ </li>
+                        <a href="http://www.mer.org/">
+                            Medical Education Resources, Inc. (MER)</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -308,15 +367,20 @@
                 </b>
                 <ul>
                     <li class="my-3">
-                        My Free CE – http://www.myfreece.com
+                        <a href="http://www.myfreece.com">
+                            My Free CE
+                        </a>
                     </li>
                     <li class="my-3">
-                        Virtual Lecture Hall – http://www.vlh.com
+                        <a href="http://www.vlh.com">
+                            Virtual Lecture Hall
+                        </a>
                     </li>
                     <li class="my-3">
-                        AMN Healthcare Education Service – http://www.rn.com/
+                        <a href="http://www.rn.com/">
+                            AMN Healthcare Education Service
+                        </a>
                     </li>
-
                 </ul>
             </div>
             <div class="col-6">
@@ -325,10 +389,13 @@
                 </b>
                 <ul>
                     <li class="my-3">
-                        CNA CEUs – http://www.cnaceus.co/CourseCatalog.php
+                        <a href="http://www.cnaceus.co/CourseCatalog.php">
+                            CNA CEUs </a>
                     </li>
                     <li class="my-3">
-                        CNA Continuing Education – https://cnazone.com/CourseList
+                        <a href="https://cnazone.com/CourseList">
+                            CNA Continuing Education
+                        </a>
                     </li>
                 </ul>
             </div>
