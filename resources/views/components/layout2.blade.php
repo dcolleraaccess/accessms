@@ -107,9 +107,74 @@
                     14 Farber Road, Princeton, NJ 08540<br>
                     1-800-257-5837<br>
                     info@accesshealthcarestaffing.com
+
+
+                    <hr>
+                    <a href="https://www.facebook.com/accesshealthcarestaffing"
+                        class="fa fa-facebook footersocials"></a>
+                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"></a>
+                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"></a>
+                    <a href="https://www.threads.net/@accesshealthcare"
+                        class="fa fa-brands fa-threads footersocials"></a>
+                    <a href="https://www.tiktok.com/@accesshealthcarestaffing"
+                        class="fa fa-brands fa-tiktok footersocials"></a>
+                    <a href="https://www.youtube.com/@accesshealthcarellc"
+                        class="fa fa-brands fa-youtube footersocials"></a>
+                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"></a>
+
+
                 </div>
-                <div class="col-9">
-                    <img src="{{asset('img/new2023footer_logos-1-1-1.png')}}" alt="" class="float-end">
+                <div class="col-9" style="padding-left:100px">
+
+                    <div class="row row-cols-4">
+                        <div class="col-12 col-lg-4">
+                            <center>
+                                <img src="{{asset('img/SIA1.jpg')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <center>
+                                <img src="{{asset('img/SIA2.png')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <center>
+                                <img src="{{asset('img/natho copy.png')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <center>
+                                <img src="{{asset('img/NALTO Member Logo - Affiliate.png')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <center>
+                                <img src="{{asset('img/tjc.png')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <center>
+                                <img src="{{asset('img/Vivian_Wordmark.svg')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <center>
+                                <img src="{{asset('img/thumbnail_FMP_Logo_FullColor_RGB.png')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                    </div>
+
+
+
+
+
                 </div>
             </div>
 
