@@ -171,21 +171,27 @@
                                     style="max-height: 100px; min-height:100px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/NALTO Member Logo - Affiliate.png')}}" class="img-fluid"
                                     style="max-height: 100px; min-height:100px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/tjc.png')}}" class="img-fluid"
                                     style="max-height: 100px; min-height:100px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/Vivian_Wordmark.svg')}}" class="img-fluid"
+                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                            </center>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <center>
+                                <img src="{{asset('img/thumbnail_FMP_Logo_FullColor_RGB.png')}}" class="img-fluid"
                                     style="max-height: 100px; min-height:100px; object-fit:contain">
                             </center>
                         </div>
