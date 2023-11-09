@@ -73,6 +73,13 @@
             object-fit: cover;
         }
 
+        .footersocials {
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
         /* Hover Nav */
         @media all and (min-width: 992px) {
             .navbar .nav-item .dropdown-menu {

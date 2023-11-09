@@ -1,5 +1,10 @@
 @extends('components.layout2')
 
+
+@section('styles')
+
+@endsection
+
 @section('content')
 {{-- Header with Image --}}
 <div style="position:relative;">
@@ -14,27 +19,76 @@
 </div>
 
 <section>
-    <div class="container-xl py-5 ">
+    <div class="container-xl py-3">
 
         <div class="row d-flex align-items-center py-4 my-4">
 
-            <div class="col-6 ">
-                <h1 class="text-end">Referral Program</h1>
-                <p class="text-end">
-                    Explore the world of wellness and healthcare with our brand new podcast, 'See U Next Tuesday!' Join
-                    us as we delve into a variety of captivating health-related topics, offering insights into the
-                    latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
+            <div class="col-12">
+                <h1 class="text-center">Referral Program</h1>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis vitae quas? Architecto nam
+                    eligendi deleniti, quidem maiores mollitia, tenetur consectetur voluptatum unde numquam nesciunt eos
+                    laboriosam itaque delectus illum deserunt animi vitae amet! Doloribus voluptatibus inventore dolorum
+                    beatae eaque aliquam distinctio rem exercitationem veniam nostrum. Natus recusandae tempore tenetur.
                 </p>
             </div>
-            <div class="col-6">
-                <img src="{{asset('img/Locum Tenens.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
-            </div>
+
+
         </div>
 
+        <div class="row mt-5">
+            <div class="col-4 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+                <h4>
+                    TITLE
+                </h4>
+                <center>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                </center>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+                <h4>
+                    TITLE
+                </h4>
+                <center>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                </center>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+                <h4>
+                    TITLE
+                </h4>
+                <center>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                </center>
+            </div>
+        </div>
     </div>
 
 </section>
 
+<section style="background-color:#FFFF80">
+    <div class="container-xl py-5 my-5">
+        <div class="row d-flex align-items-center py-4">
+            <div class="col-6">
+                <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
+            </div>
+            <div class="col-6 ">
+                <h1 class="text-start">Refer and Earn</h1>
+                <p class="text-start">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
+                </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <section>
     <div class="container-xl py-5 my-5">
