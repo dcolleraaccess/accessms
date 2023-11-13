@@ -54,6 +54,10 @@ Route::get('/statenursinglicense', function(){
 });
 Route::get('/stateinfo', [StateNursingController::class, 'fetchStateInfo'])->name('fetchStateInfo');
 
+Route::get('/about', function(){
+    return view('whoweare');
+});
+
 // Admin Routes
 Route::get('/adminblog', function(){
     return view('admin.blogpost');

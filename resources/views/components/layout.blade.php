@@ -156,43 +156,43 @@
                         <div class="col-12 col-lg-4">
                             <center>
                                 <img src="{{asset('img/SIA1.jpg')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-4">
                             <center>
                                 <img src="{{asset('img/SIA2.png')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-4">
                             <center>
                                 <img src="{{asset('img/natho copy.png')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/NALTO Member Logo - Affiliate.png')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/tjc.png')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/Vivian_Wordmark.svg')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                         <div class="col-12 col-lg-3">
                             <center>
                                 <img src="{{asset('img/thumbnail_FMP_Logo_FullColor_RGB.png')}}" class="img-fluid"
-                                    style="max-height: 100px; min-height:100px; object-fit:contain">
+                                    style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
                     </div>
