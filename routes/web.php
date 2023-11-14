@@ -58,6 +58,15 @@ Route::get('/about', function(){
     return view('whoweare');
 });
 
+Route::get('/corporatecareers', function(){
+    return view('corporatecareers');
+});
+
+Route::get('/requeststaff', function(){
+    return view('requeststaff');
+});
+
+
 // Admin Routes
 Route::get('/adminblog', function(){
     return view('admin.blogpost');
