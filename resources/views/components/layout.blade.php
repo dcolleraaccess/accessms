@@ -136,17 +136,20 @@
 
 
                     <hr>
-                    <a href="https://www.facebook.com/accesshealthcarestaffing"
+                    <a href="https://www.facebook.com/accesshealthcarestaffing" target="_empty"
                         class="fa fa-facebook footersocials"></a>
-                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"></a>
-                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"></a>
-                    <a href="https://www.threads.net/@accesshealthcare"
-                        class="fa fa-brands fa-threads footersocials"></a>
+                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"
+                        target="_empty"></a>
+                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"
+                        target="_empty"></a>
+                    <a href="https://www.threads.net/@accesshealthcare" class="fa fa-brands fa-threads footersocials"
+                        target="_empty"></a>
                     <a href="https://www.tiktok.com/@accesshealthcarestaffing"
-                        class="fa fa-brands fa-tiktok footersocials"></a>
-                    <a href="https://www.youtube.com/@accesshealthcarellc"
-                        class="fa fa-brands fa-youtube footersocials"></a>
-                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"></a>
+                        class="fa fa-brands fa-tiktok footersocials" target="_empty"></a>
+                    <a href="https://www.youtube.com/@accesshealthcarellc" class="fa fa-brands fa-youtube footersocials"
+                        target="_empty"></a>
+                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"
+                        target="_empty"></a>
 
 
                 </div>
