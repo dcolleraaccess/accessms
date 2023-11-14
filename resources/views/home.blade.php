@@ -91,11 +91,11 @@
         </div>
 
         <div class="row d-flex align-items-center py-4">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="{{asset('img/Travel.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
-            <div class="col-6 ">
-                <h1>Travel</h1>
+            <div class="col-lg-6 ">
+                <h1 class="text-center text-sm-left">Travel</h1>
                 <p>Our team of traveling healthcare professionals operates on a temporary contract basis providing you
                     the opportunity to work in diverse healthcare facilities and discover new cities and states along
                     the way. Let us help you unlock "Access" to your next adventure all while enjoying competitive pay,
@@ -107,7 +107,7 @@
         </div>
 
         <div class="row d-flex align-items-center py-4">
-            <div class="col-6 ">
+            <div class="col-md-6">
                 <h1 class="text-end">Local</h1>
                 <p class="text-end">
                     If you're seeking the ideal blend of a staff position and the adventure of travel, our local

@@ -32,6 +32,7 @@
 
         * {
             font-family: 'Poppins', sans-serif;
+            /* border: 1px solid #000; */
         }
 
         .custom-menu {
@@ -79,6 +80,51 @@
             margin-right: 10px;
             font-size: 20px;
         }
+
+        .mapdiv {
+            width: 100%;
+            /* Set a max width if needed */
+        }
+
+        .xd:hover {
+            fill: yellow;
+            transition: fill 500ms;
+
+        }
+
+        .xd {
+            fill: black;
+            transition: fill 500ms;
+
+        }
+
+        .borders {
+            stroke: #FFFFFF;
+            stroke-width: 1.5
+        }
+
+        svg {
+            width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            /* Center the SVG in its container */
+        }
+
+        /* color and width of borders between states */
+        .dccircle {
+            display: yes
+        }
+
+        /* set display to yes to show the circle for the District of Columbia, or none to hide it */
+        .separator {
+            stroke: #B0B0B0;
+            stroke-width: 0
+        }
+
+        /* color and width of lines around Alaska and Hawaii */
+
+        /* Individual states can be colored as follows:
 
         /* Hover Nav */
         @media all and (min-width: 992px) {
