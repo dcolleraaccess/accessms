@@ -23,14 +23,14 @@
 
         <div class="row  py-4 my-4">
             <h1 class="text-left">{{$job->jobtitle}}</h1>
-            <p>{{$job->description}}</p>
-
             <p>
-                <b>Time:</b> {{ \Carbon\Carbon::parse($job->start)->format('h:iA') }} - {{
-                \Carbon\Carbon::parse($job->end)->format('h:iA') }}<br>
+                <b>Time:</b> {{ \Carbon\Carbon::parse($job->start)->format('h:iA') }} EST - {{
+                \Carbon\Carbon::parse($job->end)->format('h:iA') }} EST<br>
                 <b>Pay Rate:</b> ${{$job->payrate}} <br>
                 <b>Location:</b> {{$job->state}} <br>
             </p>
+            <p>{!!$job->description!!}</p>
+
 
 
             <div class="card mt-4">
