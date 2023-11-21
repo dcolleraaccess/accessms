@@ -30,6 +30,7 @@
 
                     @php
                     $jobs = DB::table('corporatecareer')
+                    ->orderBy('id', 'desc')
                     ->get()
                     ->toArray();
                     @endphp
