@@ -93,14 +93,34 @@
         }
 
         .xd {
-            fill: black;
+            cursor: pointer;
+            fill: #d0d0d0;
             transition: fill 500ms;
+            stroke: #fff;
+            stroke-width: 1.5;
+        }
 
+        .circle {
+            cursor: pointer;
+            fill: #d0d0d0;
+            stroke: #fff;
+            stroke-width: 1;
+            transition: fill 500ms;
+        }
+
+        .circle:hover {
+            fill: yellow;
+            transition: fill 500ms;
         }
 
         .borders {
             stroke: #FFFFFF;
             stroke-width: 1.5
+        }
+
+        .xdsel {
+            fill: yellow;
+            transition: fill 500ms;
         }
 
         svg {

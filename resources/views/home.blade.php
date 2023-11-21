@@ -89,7 +89,6 @@
                 </p>
             </center>
         </div>
-
         <div class="row d-flex align-items-center py-4">
             <div class="col-lg-6">
                 <img src="{{asset('img/Travel.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">

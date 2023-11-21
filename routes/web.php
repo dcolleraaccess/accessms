@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\StateNursingController;
+use App\Http\Controllers\CorporateController;
 
 
 /*
@@ -61,6 +62,9 @@ Route::get('/about', function(){
 Route::get('/corporatecareers', function(){
     return view('corporatecareers');
 });
+Route::get('/corpjob', [CorporateController::class, 'jobpage'])->name('jobpage');
+
+
 
 Route::get('/requeststaff', function(){
     return view('requeststaff');
