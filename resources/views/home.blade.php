@@ -41,7 +41,6 @@
     </div>
 </div>
 
-
 <section style="background-color: #ffff80">
     <div class="container-xl py-3">
         <div class="row">
@@ -94,20 +93,20 @@
                 <img src="{{asset('img/Travel.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-lg-6 ">
-                <h1 class="text-center text-sm-left">Travel</h1>
+                <h1>Travel</h1>
                 <p>Our team of traveling healthcare professionals operates on a temporary contract basis providing you
                     the opportunity to work in diverse healthcare facilities and discover new cities and states along
                     the way. Let us help you unlock "Access" to your next adventure all while enjoying competitive pay,
                     valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
                     encountering a variety of medical conditions and patient populations, thus sharpening your clinical
                     care skills and judgment. </p>
-                <button class="btn mb-4" style="background-color: #FFFF80">See More</button>
+                <a href="/travel" class="btn mb-4" style="background-color: #FFFF80">See More</a>
             </div>
         </div>
 
         <div class="row d-flex align-items-center py-4">
             <div class="col-md-6">
-                <h1 class="text-end">Local</h1>
+                <h1 class="text-end">Per Diem</h1>
                 <p class="text-end">
                     If you're seeking the ideal blend of a staff position and the adventure of travel, our local
                     placements are designed for those deeply rooted in their local communities who value flexibility.
@@ -116,7 +115,7 @@
                     close to friends and family while infusing your career with excitement at Access Healthcare!
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
+                    <a href="/perdiem" class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</a>
                 </div>
             </div>
             <div class="col-6">
@@ -137,7 +136,7 @@
                     intimidating job search process by assessing your skills and experience, providing personalized
                     guidance to link you with potential employers, and advocating on your behalf every step of the way.
                 </p>
-                <button class="btn  mb-4" style="background-color: #FFFF80">See More</button>
+                <a href="permanent" class="btn  mb-4" style="background-color: #FFFF80">See More</a>
             </div>
         </div>
 
@@ -152,7 +151,7 @@
                     locations! Join us and carve your path from a short to a long-term career opportunity.
                 </p>
                 <div class="d-flex flex-column justify-content-end">
-                    <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
+                    <a href="locumtenens" class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</a>
                 </div>
             </div>
             <div class="col-6">
@@ -297,7 +296,6 @@
         </div>
     </div>
 </section>
-
 
 @endsection
 

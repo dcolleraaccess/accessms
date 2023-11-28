@@ -23,6 +23,26 @@ Route::get('/', function () {
 });
 Route::get('/fetch-specialties', [LandingPageController::class, 'fetchSpecialties'])->name('fetchSpecialties');
 
+Route::get('/travel', function(){
+    return view('travel');
+});
+
+Route::get('/perdiem', function(){
+    return view('perdiem');
+});
+Route::get('/permanent', function(){
+    return view('permanent');
+});
+
+Route::get('/locumtenens', function(){
+    return view('locumtenens');
+});
+
+Route::get('/meetyourteam', function(){
+    return view('meetyourteam');
+});
+
+
 
 Route::get('/blog', function(){
     return view('blogs');
