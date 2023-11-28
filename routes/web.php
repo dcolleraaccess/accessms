@@ -97,3 +97,8 @@ Route::get('/adminblog', function(){
 });
 Route::post('/blogpost', [BlogController::class, 'AddBlog'])->name('addblog');
 Route::post('/newposttest', [BlogController::class, 'savePost'])->name('savePost');
+
+
+Route::get('adminlogin', function(){
+    return view('admin.adminlogin');
+});
