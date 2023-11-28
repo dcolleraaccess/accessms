@@ -310,7 +310,7 @@
 
         $('#professions').change(function () {
             var selectedProfession = $(this).val();
-            updateSearchButtonHref();
+
             // Make an AJAX request to fetch specialties
             $.get('/fetch-specialties', { profession: selectedProfession }, function (data) {
                 // Assuming data is an array of specialties
@@ -325,6 +325,7 @@
                     }));
                 });
             });
+            updateSearchButtonHref();
         });
 
         function updateSearchButtonHref() {
