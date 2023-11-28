@@ -100,7 +100,7 @@
                     valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
                     encountering a variety of medical conditions and patient populations, thus sharpening your clinical
                     care skills and judgment. </p>
-                <a href="/travel" class="btn mb-4" style="background-color: #FFFF80">See More</a>
+                {{-- <a href="/travel" class="btn mb-4" style="background-color: #FFFF80">See More</a> --}}
             </div>
         </div>
 
@@ -114,9 +114,9 @@
                     typical staff positions, all while preserving the benefits of a travel healthcare professional. Stay
                     close to friends and family while infusing your career with excitement at Access Healthcare!
                 </p>
-                <div class="d-flex flex-column justify-content-end">
+                {{-- <div class="d-flex flex-column justify-content-end">
                     <a href="/perdiem" class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</a>
-                </div>
+                </div> --}}
             </div>
             <div class="col-6">
                 <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
@@ -136,7 +136,7 @@
                     intimidating job search process by assessing your skills and experience, providing personalized
                     guidance to link you with potential employers, and advocating on your behalf every step of the way.
                 </p>
-                <a href="permanent" class="btn  mb-4" style="background-color: #FFFF80">See More</a>
+                {{-- <a href="permanent" class="btn  mb-4" style="background-color: #FFFF80">See More</a> --}}
             </div>
         </div>
 
@@ -150,9 +150,9 @@
                     supplement your income and be able to explore and experience new hospital systems and geographic
                     locations! Join us and carve your path from a short to a long-term career opportunity.
                 </p>
-                <div class="d-flex flex-column justify-content-end">
+                {{-- <div class="d-flex flex-column justify-content-end">
                     <a href="locumtenens" class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</a>
-                </div>
+                </div> --}}
             </div>
             <div class="col-6">
                 <img src="{{asset('img/Locum Tenens.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
@@ -219,7 +219,7 @@
     </div>
 </section>
 
-<section style="background-color: #ffff80">
+{{-- <section style="background-color: #ffff80">
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center">
 
@@ -247,7 +247,7 @@
         </div>
 
     </div>
-</section>
+</section> --}}
 
 <section>
     <div class="container-xl py-5 my-5">
