@@ -23,14 +23,11 @@
                 Locum Tenens Nursing
             </h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consequuntur harum excepturi laborum
-                error optio quidem ex molestiae modi quae eum, iusto delectus deserunt explicabo beatae commodi nemo
-                fuga et veritatis sequi esse itaque! Facere molestiae delectus veniam ipsam iusto culpa placeat nobis
-                laborum et impedit minima facilis aspernatur, laudantium voluptate soluta ipsa sed ratione fugiat neque!
-                Eum, porro. Rerum accusamus esse ut veniam praesentium minima animi, ad illum laboriosam mollitia
-                inventore, aperiam temporibus voluptatem, perferendis laborum. Asperiores eveniet officiis odit facere.
-                Dignissimos error totam omnis illum ab doloremque consectetur aspernatur voluptatibus, iste voluptas
-                facilis, consequuntur accusamus voluptatum unde neque.
+                Access Healthcare specializes in connecting healthcare professionals, including physicians and
+                advanced practice providers, with opportunities nationwide.
+                Locum Tenens is the best opportunity to have flexibility in your work schedule while being able to
+                supplement your income and be able to explore and experience new hospital systems and geographic
+                locations! Join us and carve your path from a short to a long-term career opportunity.
             </p>
         </center>
         <br>

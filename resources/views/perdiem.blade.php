@@ -23,14 +23,12 @@
                 Per Diem Nursing
             </h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consequuntur harum excepturi laborum
-                error optio quidem ex molestiae modi quae eum, iusto delectus deserunt explicabo beatae commodi nemo
-                fuga et veritatis sequi esse itaque! Facere molestiae delectus veniam ipsam iusto culpa placeat nobis
-                laborum et impedit minima facilis aspernatur, laudantium voluptate soluta ipsa sed ratione fugiat neque!
-                Eum, porro. Rerum accusamus esse ut veniam praesentium minima animi, ad illum laboriosam mollitia
-                inventore, aperiam temporibus voluptatem, perferendis laborum. Asperiores eveniet officiis odit facere.
-                Dignissimos error totam omnis illum ab doloremque consectetur aspernatur voluptatibus, iste voluptas
-                facilis, consequuntur accusamus voluptatum unde neque.
+                If you're seeking the ideal blend of a staff position and the adventure of travel, our local
+                placements are designed for those deeply rooted in their local communities who value flexibility.
+                Whether your preference is for short or long-term contracts, you'll enjoy compensation that exceeds
+                typical staff positions, all while preserving the benefits of a travel healthcare professional. Stay
+                close to friends and family while infusing your career with excitement at Access Healthcare!
+
             </p>
         </center>
         <br>

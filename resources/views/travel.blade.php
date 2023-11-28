@@ -24,14 +24,12 @@
                 Travel Nursing
             </h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consequuntur harum excepturi laborum
-                error optio quidem ex molestiae modi quae eum, iusto delectus deserunt explicabo beatae commodi nemo
-                fuga et veritatis sequi esse itaque! Facere molestiae delectus veniam ipsam iusto culpa placeat nobis
-                laborum et impedit minima facilis aspernatur, laudantium voluptate soluta ipsa sed ratione fugiat neque!
-                Eum, porro. Rerum accusamus esse ut veniam praesentium minima animi, ad illum laboriosam mollitia
-                inventore, aperiam temporibus voluptatem, perferendis laborum. Asperiores eveniet officiis odit facere.
-                Dignissimos error totam omnis illum ab doloremque consectetur aspernatur voluptatibus, iste voluptas
-                facilis, consequuntur accusamus voluptatum unde neque.
+                Our team of traveling healthcare professionals operates on a temporary contract basis providing you
+                the opportunity to work in diverse healthcare facilities and discover new cities and states along
+                the way. Let us help you unlock "Access" to your next adventure all while enjoying competitive pay,
+                valuable benefits and the freedom to decide when your next journey begins. Expand your skillset by
+                encountering a variety of medical conditions and patient populations, thus sharpening your clinical
+                care skills and judgment.
             </p>
         </center>
         <br>

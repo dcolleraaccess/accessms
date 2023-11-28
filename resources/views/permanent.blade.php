@@ -23,14 +23,12 @@
                 Permanent Nursing
             </h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consequuntur harum excepturi laborum
-                error optio quidem ex molestiae modi quae eum, iusto delectus deserunt explicabo beatae commodi nemo
-                fuga et veritatis sequi esse itaque! Facere molestiae delectus veniam ipsam iusto culpa placeat nobis
-                laborum et impedit minima facilis aspernatur, laudantium voluptate soluta ipsa sed ratione fugiat neque!
-                Eum, porro. Rerum accusamus esse ut veniam praesentium minima animi, ad illum laboriosam mollitia
-                inventore, aperiam temporibus voluptatem, perferendis laborum. Asperiores eveniet officiis odit facere.
-                Dignissimos error totam omnis illum ab doloremque consectetur aspernatur voluptatibus, iste voluptas
-                facilis, consequuntur accusamus voluptatum unde neque.
+                Have you reached a point where you're seeking stability and the chance to settle down? Are you a
+                recent graduate ready for a more permanent role? We can assist you in securing a lasting position
+                within a hospital, simplifying the often complex onboarding process. Our team is dedicated to your
+                best interests, working diligently to find your ideal match. Access Healthcare simplifies the
+                intimidating job search process by assessing your skills and experience, providing personalized
+                guidance to link you with potential employers, and advocating on your behalf every step of the way.
             </p>
         </center>
         <br>
