@@ -6,8 +6,7 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/Nurse on tablet L.jpg')}}"
-                    style="height:300px;object-fit: cover;object-position: 0px -400px;">
+                <img src="{{asset('img/Nurse on tablet L.jpg')}}" style="height:200px;object-fit: cover">
             </div>
         </div>
     </div>
@@ -16,7 +15,7 @@
 <section>
     <div class="container-xl py-5">
         <div class="row">
-            <div class="col-8 px-4" style="border-right: 0.5px solid rgb(228, 228, 228)">
+            <div class="col-lg-8 px-4" style="border-right: 0.5px solid rgb(228, 228, 228)">
                 <div>
                     <center>
                         <h2 class="mb-4">{{$article->title}}</h2>
@@ -27,7 +26,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 px-4">
+            <div class="d-block d-lg-none">
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div class="col-lg-4 px-4">
                 <h4>Latest Article</h4>
                 @php
                 $latestnews = DB::table('blog')

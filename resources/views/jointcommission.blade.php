@@ -6,17 +6,17 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/tjc.jpg')}}" style="height:300px;object-fit: cover;object-position: 0px -400px;">
+                <img src="{{asset('img/Nurse Holding Clipboard - L.jpg')}}" style="height:300px;object-fit: cover">
             </div>
         </div>
     </div>
 </div>
 
 <section>
-    <div class="container-xl mt-5 mb-5 py-3">
+    <div class="container-xl py-5">
         <div class="row d-flex align-items-center">
-            <div class="col-6">
-                <h1 class="mt-5">Joint Commission</h1>
+            <div class="col-lg-6">
+                <h1 class="">Joint Commission</h1>
                 <p>
                     By adhering to Joint Commission standards , Access Healthcare is dedicated to maintaining our
                     position as a
@@ -49,9 +49,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <center>
-                    <img src="{{asset('img/tjc.jfif')}}" alt="" style="width: 70%">
+                    <img src="{{asset('img/tjc.jfif')}}" alt="" style="width: 50%">
                 </center>
             </div>
         </div>

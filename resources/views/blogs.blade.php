@@ -6,24 +6,24 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="4000">
-                <img src="{{asset('img/Woman on Computer L.jpg')}}" class="d-block w-100">
+                <img src="{{asset('img/Woman on Computer L.jpg')}}" class="d-block w-100 spec">
             </div>
         </div>
     </div>
 
     <div style="position:absolute; bottom: 10%; left:5%; max-width: 40%; z-index: 10" class="text-white">
-        <h1 style="font-size: 72px; font-family: 'Times New Roman';" class="mb-0 pb-0">Access Blogs</h1>
+        <h1 style="font-size: 60px; font-family: 'Times New Roman';" class="mb-0 pb-0">Access Blogs</h1>
     </div>
 </div>
 
 <section>
-    <div class="container-xl py-5 ">
+    <div class="container-xl py-3 ">
 
         <div class="my-5">
             <div class="row gy-4">
 
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-lg-9 order-2 order-lg-1">
                         @php
                         $blogresult = DB::table('blog')
                         ->where('status', 'active')
@@ -67,7 +67,7 @@
                             @endforeach
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 order-1 order-lg-2 mb-3 mb-lg-0">
                         Search Article:
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Article Title" id="searchtitle">

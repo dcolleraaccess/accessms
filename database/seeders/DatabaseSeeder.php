@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call(BlogTableSeeder::class);
         $this->call(ProfessionsTableSeeder::class);
         $this->call(SpecialtiesTableSeeder::class);
-        $this->call(StatenursingTableSeeder::class);
         $this->call(CorporatecareerTableSeeder::class);
+        $this->call(StatenursingTableSeeder::class);
     }
 }

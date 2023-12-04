@@ -6,8 +6,8 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/statenursing.jpg')}}"
-                    style="height:300px;object-fit: cover;object-position: 0px -900px;">
+                <img src="{{asset('img/Medical Students Listening in Class - L.jpg')}}"
+                    style="height:300px;object-fit: cover">
             </div>
         </div>
     </div>
@@ -1044,7 +1044,7 @@
         </select>
 
         <div class="row my-5 pt-3" id="info">
-            <div class="col-4" id="rn-section">
+            <div class="col-lg-4" id="rn-section">
                 <h4>RN</h4>
                 <ul>
                     <li>
@@ -1064,7 +1064,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4" id="lpn-section">
+            <div class="col-lg-4" id="lpn-section">
                 <h4>LPN</h4>
                 <ul>
                     <li>
@@ -1084,7 +1084,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4" id="cna-section">
+            <div class="col-lg-4" id="cna-section">
                 <h4>CNA</h4>
                 <ul>
                     <li>

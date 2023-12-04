@@ -29,7 +29,8 @@
         }
 
         .carousel-item img {
-            max-height: 800px;
+            min-height: 700px;
+            max-height: 900px;
             width: 100%;
             object-fit: cover;
             display: block;
@@ -87,32 +88,13 @@
             }
         }
 
-        /* Image Crop */
-        @media (min-width: 1280px) {
-            .carousel-item:first-child img {
-                object-position: 0px -0px;
-            }
-
-            .carousel-item:nth-child(2) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(3) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(4) img {
-                object-position: 0px -50px;
-            }
-
-            .carousel-item:nth-child(6) img {
-                object-position: 0px -50px;
-            }
-        }
-
-        @media (min-width: 1582px) {
-            .carousel-item:first-child img {
-                object-position: 0px -200px;
+        @media (min-width: 992px) {
+            .carousel-item img {
+                min-height: 100px;
+                max-height: 900px;
+                width: 100%;
+                object-fit: cover;
+                display: block;
             }
         }
     </style>
@@ -127,72 +109,76 @@
 
     <footer style="background-color: black">
         <div class="container-xl text-white py-5">
-            <div class="row">
-                <div class="col-3">
-                    <h4>Contacts</h4>
-                    14 Farber Road, Princeton, NJ 08540<br>
-                    1-800-257-5837<br>
-                    info@accesshealthcarestaffing.com
+            <div class="row gx-3">
+                <div class="col-lg-4">
+                    <h4 class="text-center text-lg-start">Contacts</h4>
+                    <p class="text-center text-lg-start">
+                        14 Farber Road, Princeton, NJ 08540<br>
+                        1-800-257-5837<br>
+                        info@accesshealthcarestaffing.com
+                    </p>
 
 
                     <hr>
-                    <a href="https://www.facebook.com/accesshealthcarestaffing" target="_empty"
-                        class="fa fa-facebook footersocials"></a>
-                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"
-                        target="_empty"></a>
-                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"
-                        target="_empty"></a>
-                    <a href="https://www.threads.net/@accesshealthcare" class="fa fa-brands fa-threads footersocials"
-                        target="_empty"></a>
-                    <a href="https://www.tiktok.com/@accesshealthcarestaffing"
-                        class="fa fa-brands fa-tiktok footersocials" target="_empty"></a>
-                    <a href="https://www.youtube.com/@accesshealthcarellc" class="fa fa-brands fa-youtube footersocials"
-                        target="_empty"></a>
-                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"
-                        target="_empty"></a>
+                    <div class="d-none d-lg-block">
+                        <a href="https://www.facebook.com/accesshealthcarestaffing" target="_empty"
+                            class="fa fa-facebook footersocials"></a>
+                        <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"
+                            target="_empty"></a>
+                        <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"
+                            target="_empty"></a>
+                        <a href="https://www.threads.net/@accesshealthcare"
+                            class="fa fa-brands fa-threads footersocials" target="_empty"></a>
+                        <a href="https://www.tiktok.com/@accesshealthcarestaffing"
+                            class="fa fa-brands fa-tiktok footersocials" target="_empty"></a>
+                        <a href="https://www.youtube.com/@accesshealthcarellc"
+                            class="fa fa-brands fa-youtube footersocials" target="_empty"></a>
+                        <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"
+                            target="_empty"></a>
+                    </div>
 
 
                 </div>
-                <div class="col-9" style="padding-left:100px">
+                <div class="col-lg-8 ps-0 ps-lg-5">
 
-                    <div class="row row-cols-4">
-                        <div class="col-12 col-lg-4">
+                    <div class="row row-cols-4 ">
+                        <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/SIA1.jpg')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/SIA2.png')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-4 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/natho copy.png')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-3">
+                        <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/NALTO Member Logo - Affiliate.png')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-3">
+                        <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/tjc.png')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-3">
+                        <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/Vivian_Wordmark.svg')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
                             </center>
                         </div>
-                        <div class="col-12 col-lg-3">
+                        <div class="col-12 col-lg-3 mb-lg-0">
                             <center>
                                 <img src="{{asset('img/thumbnail_FMP_Logo_FullColor_RGB.png')}}" class="img-fluid"
                                     style="max-height: 75px; min-height:75px; object-fit:contain">
@@ -202,6 +188,24 @@
                 </div>
             </div>
 
+        </div>
+        <div class="d-block d-lg-none">
+            <center>
+                <a href="https://www.facebook.com/accesshealthcarestaffing" target="_empty"
+                    class="fa fa-facebook footersocials"></a>
+                <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram footersocials"
+                    target="_empty"></a>
+                <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter footersocials"
+                    target="_empty"></a>
+                <a href="https://www.threads.net/@accesshealthcare" class="fa fa-brands fa-threads footersocials"
+                    target="_empty"></a>
+                <a href="https://www.tiktok.com/@accesshealthcarestaffing" class="fa fa-brands fa-tiktok footersocials"
+                    target="_empty"></a>
+                <a href="https://www.youtube.com/@accesshealthcarellc" class="fa fa-brands fa-youtube footersocials"
+                    target="_empty"></a>
+                <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin footersocials"
+                    target="_empty"></a>
+            </center>
         </div>
         <div>
             <center>

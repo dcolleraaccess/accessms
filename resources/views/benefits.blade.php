@@ -15,8 +15,7 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/nursebene.jpg')}}"
-                    style="height: 400px; object-fit:cover; object-position: 0px -500px">
+                <img src="{{asset('img/Doctor holding piggy bank - L.jpg')}}" style="height: 400px; object-fit:cover">
             </div>
         </div>
     </div>
@@ -26,7 +25,7 @@
     <div class="container-xl my-5">
 
         <div class="row d-flex align-items-center">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h1>Benefits and Extras</h1>
                 <h2>You Need Access To Get In</h2>
                 <p>
@@ -40,7 +39,7 @@
                     enhancement and personal fulfillment.
                 </p>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="{{asset('img/access-benefits.jpg')}}" alt="" class="img-fluid">
             </div>
         </div>
@@ -68,36 +67,36 @@
             <br>
         </p>
         <div class="row gx-5">
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-2 mb-lg-0 d-flex flex-column align-items-center">
                 <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
-                <h4>
+                <h4 class="text-center">
                     PAY PACKAGE
                 </h4>
                 <center>
                     Customized pay package built just for you
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-2 mb-lg-0  d-flex flex-column align-items-center">
                 <i class="fa-solid fa-suitcase-medical mb-3" style="font-size:50px"></i>
-                <h4>
+                <h4 class="text-center">
                     MEDICAL PLAN
                 </h4>
                 <center>
                     Exceptional Health Insurance Plans including dental and vision serviced by Aetna
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-2 mb-lg-0  d-flex flex-column align-items-center">
                 <i class="fa-solid fa-chart-pie mb-3" style="font-size:50px"></i>
-                <h4>
+                <h4 class="text-center">
                     401K PLAN
                 </h4>
                 <center>
                     The best matching 401k plan in the industry serviced by Paychex
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-2 mb-lg-0 d-flex flex-column align-items-center">
                 <i class="fa-solid fa-house mb-3" style="font-size:50px"></i>
-                <h4>
+                <h4 class="text-center">
                     HOUSING ASSISTANCE
                 </h4>
                 <center>
@@ -149,9 +148,7 @@
             </center>
         </h1>
         <div class="row gx-5">
-
-
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 d-flex flex-column align-items-center">
                 <a style="text-decoration: none; color: black"
                     href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1619024221266&key=CORP&app=resvlink">
                     <center>
@@ -167,7 +164,7 @@
             </div>
 
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 d-flex flex-column align-items-center">
                 <a style="text-decoration: none; color:black"
                     href="https://nordic-naturals.dcatalog.com/r/Order-Form/?page=1">
                     <center>
@@ -187,7 +184,7 @@
 
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 d-flex flex-column align-items-center">
                 <a style="text-decoration: none; color:black" href="https://join.hotelengine.com/join/5bac504">
                     <center>
                         <img src="{{asset('img/logo-hotelengine.jpg')}}" style="width:80%">
@@ -204,7 +201,7 @@
                 </a>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 d-flex flex-column align-items-center">
                 <a style="text-decoration: none; color:black" href="https://www.budget.com/en/corporate/R319700">
                     <center>
                         <img src="{{asset('img/logo_avis.jpg')}}" style="width:80%">
@@ -235,7 +232,7 @@
 <section style="background-color: #ffff80">
     <div class="container-xl my-5 py-5">
         <div class="row d-flex align-items-center">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h1>Culture of Wellness</h1>
                 <p>
                     Access Healthcare is dedicated to creating a motivating and inspiring environment for our healthcare
@@ -268,8 +265,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
-                <img src="{{asset('img/culture.jpg')}}" class='img-fluid rounded-4'>
+            <div class="col-lg-6">
+                <img src="{{asset('img/Working Medical Professionals - L.jpg')}}" class='img-fluid rounded-4'>
             </div>
         </div>
 
@@ -315,7 +312,7 @@
         <br>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <b>
                     General Resources:
                 </b>
@@ -342,7 +339,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <b>
                     Medicine Education Resources:
                 </b>
@@ -361,7 +358,7 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <b>
                     Nursing Education Resources:
                 </b>
@@ -383,7 +380,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <b>
                     Certified Nursing Assistant Education Resources:
                 </b>

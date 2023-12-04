@@ -21,7 +21,7 @@
 
     }
 
-    .fa {
+    .fag {
         padding: 19px;
         font-size: 20px;
         width: 20px;
@@ -36,7 +36,7 @@
         color: black;
     }
 
-    .fa:hover {
+    .fag:hover {
         color: white;
         background: black;
     }
@@ -48,8 +48,8 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/connect.jpg')}}"
-                    style="height: 300px; object-fit:cover; object-position: 0px -400px">
+                <img src="{{asset('img/Doctor, surgeon and nurse join hands together - L.jpg')}}"
+                    style="height: 300px; object-fit:cover">
             </div>
         </div>
     </div>
@@ -58,8 +58,8 @@
 <section>
     <div class="container-xl my-5">
 
-        <div class="row">
-            <div class="col-6">
+        <div class="d-flex align-items-center row">
+            <div class="col-lg-6">
                 <div>
                     <h1>Contact Us</h1>
                     <div>
@@ -81,16 +81,16 @@
                 </div>
                 <h1 class="mt-4">Socials</h1>
                 <div>
-                    <a href="https://www.facebook.com/accesshealthcarestaffing" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter"></a>
-                    <a href="https://www.threads.net/@accesshealthcare" class="fa fa-brands fa-threads"></a>
-                    <a href="https://www.tiktok.com/@accesshealthcarestaffing" class="fa fa-brands fa-tiktok"></a>
-                    <a href="https://www.youtube.com/@accesshealthcarellc" class="fa fa-brands fa-youtube"></a>
-                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/accesshealthcarestaffing" class="fa fa-facebook fag"></a>
+                    <a href="https://www.instagram.com/accesshealthcare/" class="fa fa-instagram fag"></a>
+                    <a href="https://twitter.com/AHCSTAFFINGLLC" class="fa fa-brands fa-x-twitter fag"></a>
+                    <a href="https://www.threads.net/@accesshealthcare" class="fa fa-brands fa-threads fag"></a>
+                    <a href="https://www.tiktok.com/@accesshealthcarestaffing" class="fa fa-brands fa-tiktok fag"></a>
+                    <a href="https://www.youtube.com/@accesshealthcarellc" class="fa fa-brands fa-youtube fag"></a>
+                    <a href="https://www.linkedin.com/company/10786322/admin/" class="fa fa-linkedin fag"></a>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 mt-lg-0 mt-3">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.3688578246806!2d-74.6639865!3d40.311970599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e1970562c767%3A0x21b144bd4bdbd95c!2sAccess%20Healthcare%20LLC!5e0!3m2!1sen!2sph!4v1698082544011!5m2!1sen!2sph"
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
