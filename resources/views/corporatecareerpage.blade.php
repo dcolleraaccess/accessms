@@ -20,8 +20,8 @@
 
 <section style="min-height: 500px">
     <div class="container-xl py-3">
-
-        <div class="row  py-4 my-4">
+        <a href="corporatecareers" class="btn text-white mt-2" style="background-color: black">Back</a>
+        <div class="row  py-2 my-4">
             <h1 class="text-left">{{$job->jobtitle}}</h1>
             <p>
                 <b>Time:</b> {{ \Carbon\Carbon::parse($job->start)->format('h:iA') }} EST - {{
@@ -43,15 +43,20 @@
                             <input type="text" class="form-control" placeholder="Last Name*">
                         </div>
                         <div class="input-group my-3">
-                            <span class="input-group-text">Address</span>
-                            <input type="text" aria-label="First name" class="form-control" placeholder="Address*">
+                            <select name="state" id="state" class="form-select">
+                                @php
+                                $states = DB::table('statenursing')
+                                ->get()
+                                ->toArray();
+                                @endphp
+
+                                @foreach ($states as $state)
+                                <option value="{{$state->state}}">{{$state->state}}</option>
+                                @endforeach
+                            </select>
                         </div>
                         <div class="input-group my-3">
-                            <span class="input-group-text">Age</span>
-                            <input type="text" aria-label="First name" class="form-control" placeholder="Age*">
-                        </div>
-                        <div class="input-group my-3">
-                            <span class="input-group-text">Description</span>
+                            <span class="input-group-text">About You</span>
                             <textarea class="form-control"> </textarea>
                         </div>
                         <div class="mb-3">
