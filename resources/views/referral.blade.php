@@ -20,50 +20,81 @@
 <section>
     <div class="container-xl py-3">
 
-        <div class="row d-flex align-items-center py-4 my-4">
+        <div class="row d-flex align-items-center py-1 my-1 mb-4">
 
             <div class="col-12">
-                <h1 class="text-center">Referral Program</h1>
+                <h1 class="text-center mb-3">Referral Program</h1>
+                <h5 class="text-center">
+                    We need more healthcare heroes like you.
+                </h5>
                 <p class="text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis vitae quas? Architecto nam
-                    eligendi deleniti, quidem maiores mollitia, tenetur consectetur voluptatum unde numquam nesciunt eos
-                    laboriosam itaque delectus illum deserunt animi vitae amet! Doloribus voluptatibus inventore dolorum
-                    beatae eaque aliquam distinctio rem exercitationem veniam nostrum. Natus recusandae tempore tenetur.
-                </p>
+
+                    Are you a licensed RN, LPN, CNA, or Allied Professional, and do you know someone exceptional who
+                    would thrive with Access Healthcare Staffing? Refer a friend, and you'll be eligible for a fantastic
+                    bonus! At Access Healthcare Staffing, we appreciate and value the contributions of our talented team
+                    members and believe that great talent deserves to be rewarded. </p>
             </div>
-
-
         </div>
 
-        <div class="row mt-5">
-            <div class="col-4 d-flex flex-column align-items-center">
-                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+
+        <div class="row mt-5 mb-5">
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-handshake-simple mb-3" style="font-size:50px"></i>
                 <h4>
-                    TITLE
+                    Refer a Friend
                 </h4>
                 <center>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                    Know a skilled healthcare professional seeking new opportunities? Refer them to Access Healthcare
+                    Staffing!
                 </center>
             </div>
-            <div class="col-4 d-flex flex-column align-items-center">
-                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-file mb-3" style="font-size:50px"></i>
                 <h4>
-                    TITLE
+                    Submit the Referral
                 </h4>
                 <center>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                    Fill out our easy online referral form, providing the necessary details about your referred
+                    candidate.
                 </center>
             </div>
-            <div class="col-4 d-flex flex-column align-items-center">
-                <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:50px"></i>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-globe mb-3" style="font-size:50px"></i>
                 <h4>
-                    TITLE
+                    Let Us Connect
                 </h4>
                 <center>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, at!
+                    Once referred, our team will connect with your candidate to explore opportunities matching their
+                    skills and goals.
+                </center>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center">
+                <i class="fa-solid fa-money-bill mb-3" style="font-size:50px"></i>
+                <h4>
+                    Earn Your Bonus
+                </h4>
+                <center>
+
+                    When your referred candidate joins and completes onboarding, you'll earn a referral bonus as a token
+                    of appreciation.
                 </center>
             </div>
         </div>
+
+
+        <p class="text-center mb-4">
+            Ready to refer a friend and earn fantastic bonuses? Visit our Referral Program page to submit your referral
+            and start the journey toward rewarding both you and your referred candidates.
+
+            At Access Healthcare Staffing, we believe in the power of connections, and your referrals help us build a
+            stronger, more talented team. Join us in shaping the future of healthcare staffing—refer a friend today!
+        </p>
+        <center>
+            <a href="#form">
+                <button class="btn btn-dark">Send a Referral</button>
+            </a>
+        </center>
+
     </div>
 
 </section>
@@ -75,17 +106,28 @@
                 <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-6 ">
-                <h1 class="text-start">Refer and Earn</h1>
+                <h1 class="text-start">Benefits of Referring</h1>
                 <p class="text-start">
                 <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, consectetur.</li>
+                    <li class="my-2"><b>Generous Bonuses:</b> Enjoy a competitive bonus for each successful referral you
+                        make.</li>
+                    <li class="my-2"><b>Unlimited Opportunities:</b> There's no limit to how many referrals you can
+                        submit or how
+                        many
+                        bonuses you can earn. The more talented professionals you refer, the more you can earn!</li>
+                    <li class="my-2"><b>Contribute to Our Team:</b> Help us build an exceptional team of healthcare
+                        professionals
+                        dedicated
+                        to making a positive impact in the industry.</li>
                 </ul>
                 </p>
             </div>
 
         </div>
+    </div>
+
+    <div id="form">
+        <span style="color: #FFFF80">pin</span>
     </div>
 </section>
 
