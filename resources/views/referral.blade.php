@@ -103,7 +103,7 @@
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center py-2">
             <div class="col-lg-6 order-2 order-lg-1">
-                <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
+                <img src="{{asset('img/holdhands.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
                 <h1 class="text-center text-lg-start">Benefits of Referring</h1>
