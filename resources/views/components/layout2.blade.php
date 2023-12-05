@@ -300,7 +300,7 @@
 
     @stack('jsscripts')
 
-    {{--
+
     <!-- Start of LiveChat (www.livechat.com) code -->
     <script>
         window.__lc = window.__lc || {};
@@ -309,7 +309,7 @@
     </script>
     <noscript><a href="https://www.livechat.com/chat-with/14120712/" rel="nofollow">Chat with us</a>, powered by <a
             href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-    <!-- End of LiveChat code --> --}}
+    <!-- End of LiveChat code -->
 </body>
 
 </html>
