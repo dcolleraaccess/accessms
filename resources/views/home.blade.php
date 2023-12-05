@@ -219,26 +219,34 @@
         </center>
         <div class="row">
             <div class="col-lg-3 mb-4 mb-lg-0">
-                <center>
-                    <img src="{{asset('img/Philadelphia Skyline.jpg')}}"
-                        style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                        class="rounded-4 loc img-fluid">
-                    <h5 class="my-2" style="z-index: 10">
-                        Philadelphia
-                    </h5>
-                </center>
+                <a target="_empty" style="text-decoration:none; color:black"
+                    href="https://nexus-leap.laboredge.com/access/jobs?loc=PA&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1">
+                    <center>
+                        <img src="{{asset('img/Philadelphia Skyline.jpg')}}"
+                            style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                            class="rounded-4 loc img-fluid">
+                        <h5 class="my-2" style="z-index: 10">
+                            Philadelphia
+                        </h5>
+                    </center>
+                </a>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
-                <center>
-                    <img src="{{asset('img/New Jersey Cape May Beach.jpg')}}"
-                        style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                        class="rounded-4 loc img-fluid">
-                    <h5 class="my-2" style="z-index: 10">
-                        New Jersey
-                    </h5>
-                </center>
+                <a target="_empty" style="text-decoration:none; color:black"
+                    href="https://nexus-leap.laboredge.com/access/jobs?loc=NJ&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1">
+                    <center>
+                        <img src="{{asset('img/New Jersey Cape May Beach.jpg')}}"
+                            style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                            class="rounded-4 loc img-fluid">
+                        <h5 class="my-2" style="z-index: 10">
+                            New Jersey
+                        </h5>
+                    </center>
+                </a>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
+                <a target="_empty" style="text-decoration:none; color:black"
+                    href="https://nexus-leap.laboredge.com/access/jobs?loc=CA&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1"></a>
                 <center>
                     <img src="{{asset('img/California San Diego.jpg')}}"
                         style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
@@ -249,27 +257,30 @@
                 </center>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
-                <center>
-                    <img src="{{asset('img/Washington Seattle Skyline.jpg')}}"
-                        style="height:350px; min-width: 100px ; object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                        class="rounded-4 loc img-fluid">
-                    <h5 class="my-2" style="z-index: 10">
-                        Washington
-                    </h5>
-                </center>
+                <a target="_empty" style="text-decoration:none; color:black"
+                    href="https://nexus-leap.laboredge.com/access/jobs?loc=WA&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1">
+                    <center>
+                        <img src="{{asset('img/Washington Seattle Skyline.jpg')}}"
+                            style="height:350px; min-width: 100px ; object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                            class="rounded-4 loc img-fluid">
+                        <h5 class="my-2" style="z-index: 10">
+                            Washington
+                        </h5>
+                    </center>
+                </a>
             </div>
         </div>
 
         <div class="py-3 d-none d-md-block">
             <center>
-                <a href="https://nexus-leap.laboredge.com/access/jobs">
+                <a href="https://nexus-leap.laboredge.com/access/jobs" target="_empty">
                     <button class="btn btn-dark">See More</button>
                 </a>
             </center>
         </div>
         <div class="py-3 d-block d-md-none">
             <center>
-                <a href="https://nexus-leap.laboredge.com/access/jobs">
+                <a href="https://nexus-leap.laboredge.com/access/jobs" target="_empty">
                     <button class="btn btn-dark w-100">See More</button>
                 </a>
             </center>
