@@ -20,7 +20,7 @@
 <section>
     <div class="container-xl py-3">
 
-        <div class="row d-flex align-items-center py-1 my-1 mb-4">
+        <div class="row d-flex align-items-center py-1 my-1 mb-1">
 
             <div class="col-12">
                 <h1 class="text-center mb-3">Referral Program</h1>
@@ -37,8 +37,8 @@
         </div>
 
 
-        <div class="row mt-5 mb-5">
-            <div class="col-3 d-flex flex-column align-items-center">
+        <div class="row mt-4 mb-5">
+            <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column align-items-center">
                 <i class="fa-solid fa-handshake-simple mb-3" style="font-size:50px"></i>
                 <h4>
                     Refer a Friend
@@ -48,7 +48,7 @@
                     Staffing!
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-4 mb-lg-0  d-flex flex-column align-items-center">
                 <i class="fa-solid fa-file mb-3" style="font-size:50px"></i>
                 <h4>
                     Submit the Referral
@@ -58,7 +58,7 @@
                     candidate.
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 mb-4 mb-lg-0   d-flex flex-column align-items-center">
                 <i class="fa-solid fa-globe mb-3" style="font-size:50px"></i>
                 <h4>
                     Let Us Connect
@@ -68,7 +68,7 @@
                     skills and goals.
                 </center>
             </div>
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-lg-3 d-flex flex-column align-items-center">
                 <i class="fa-solid fa-money-bill mb-3" style="font-size:50px"></i>
                 <h4>
                     Earn Your Bonus
@@ -91,7 +91,7 @@
         </p>
         <center>
             <a href="#form">
-                <button class="btn btn-dark">Send a Referral</button>
+                <button class="btn btn-dark mb-5">Send a Referral</button>
             </a>
         </center>
 
@@ -100,13 +100,13 @@
 </section>
 
 <section style="background-color:#FFFF80">
-    <div class="container-xl py-5 my-5">
-        <div class="row d-flex align-items-center py-4">
-            <div class="col-6">
+    <div class="container-xl py-5">
+        <div class="row d-flex align-items-center py-2">
+            <div class="col-lg-6 order-2 order-lg-1">
                 <img src="{{asset('img/Local.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
-            <div class="col-6 ">
-                <h1 class="text-start">Benefits of Referring</h1>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <h1 class="text-center text-lg-start">Benefits of Referring</h1>
                 <p class="text-start">
                 <ul>
                     <li class="my-2"><b>Generous Bonuses:</b> Enjoy a competitive bonus for each successful referral you
