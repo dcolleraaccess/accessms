@@ -246,15 +246,17 @@
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
                 <a target="_empty" style="text-decoration:none; color:black"
-                    href="https://nexus-leap.laboredge.com/access/jobs?loc=CA&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1"></a>
-                <center>
-                    <img src="{{asset('img/California San Diego.jpg')}}"
-                        style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
-                        class="rounded-4 loc img-fluid">
-                    <h5 class="my-2" style="z-index: 10">
-                        California
-                    </h5>
-                </center>
+                    href="https://nexus-leap.laboredge.com/access/jobs?loc=CA&job=LOCAL,PERM,TRAVEL&highSort=weeklyPay&highSortOr=-1&exclSort=weeklyPay&exclSortOr=-1&featureSort=weeklyPay&featureSortOr=-1">
+
+                    <center>
+                        <img src="{{asset('img/California San Diego.jpg')}}"
+                            style="height:350px; min-width: 100px ;object-fit:cover;box-shadow: 0px 0px 52px -3px rgba(0,0,0,0.28);"
+                            class="rounded-4 loc img-fluid">
+                        <h5 class="my-2" style="z-index: 10">
+                            California
+                        </h5>
+                    </center>
+                </a>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
                 <a target="_empty" style="text-decoration:none; color:black"
@@ -452,7 +454,5 @@
             $searchButtonsmall.attr('href', href);
         }
     });
-
-
 </script>
 @endpush
