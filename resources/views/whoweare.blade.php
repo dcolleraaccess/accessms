@@ -43,30 +43,16 @@
         <div class="container-xl py-2">
             <div class="row d-flex align-items-center">
 
+
                 <iframe src="https://www.youtube.com/embed/_twgLLdpVaY"
                     title="Get To Know the Owner and CEO of Access Healthcare – Danielle Doyle" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen class="col-lg-6 rounded-5 mb-4 mb-lg-0" height="475"></iframe>
+                    allowfullscreen class="rounded-5 mb-4 mb-lg-0 mx-auto" height="475"
+                    style="max-width: 900px;"></iframe>
 
 
-                <div class="col-lg-6">
-                    <center>
 
-                        <h1>Be Updated</h1>
-                        <p>
-                            Stay ahead of the curve by reading about innovative approaches to healthcare delivery,
-                            success
-                            stories from our patients and partners, and expert analyses of emerging healthcare
-                            technologies.
-                            Our commitment to keeping you informed drives us to deliver well-researched, engaging,
-                            and
-                            informative articles that empower you to make informed decisions about your health.
-                        </p>
-                        <a href="https://www.youtube.com/@accesshealthcarellc">
-                            <button class="btn btn-dark">See More</button>
-                        </a>
-                    </center>
-                </div>
+
             </div>
 
         </div>
