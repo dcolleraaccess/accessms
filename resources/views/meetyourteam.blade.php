@@ -55,6 +55,10 @@
                     <p style="font-size: 13px">Chief Accounting Officer</p>
                 </center>
             </div>
+        </div>
+
+        <h3 class="text-center mb-4">Recruitment</h3>
+        <div class="row gy-4 mb-4">
             <div class='col'>
                 <center>
                     <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
@@ -63,10 +67,6 @@
                     <p style="font-size: 13px">Director of Recruitment</p>
                 </center>
             </div>
-        </div>
-
-        <h3 class="text-center mb-4">Recruitment</h3>
-        <div class="row gy-4 mb-4">
             <div class='col'>
                 <center>
                     <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
