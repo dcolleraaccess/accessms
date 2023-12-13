@@ -24,10 +24,11 @@
 
         <h1 class="text-center">Meet Your Team</h1>
         <p class="text-center mb-5">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic earum delectus officiis cumque nostrum
-            molestiae, et consequatur at repellat itaque! Maiores eos, nisi beatae hic dolores officiis sed ut
-            ea itaque corrupti ratione, in harum voluptatum possimus minus perferendis sunt. Dolor alias numquam
-            inventore quasi, possimus laborum nemo commodi facilis.
+            At Access Healthcare Staffing, our foundation is built upon the remarkable individuals who form our team.
+            They transcend the label of mere employees; they are the very pulse of our organization, propelling our
+            success forward with their unyielding dedication and expertise. Our team comprises passionate individuals
+            who infuse every task with unparalleled passion, expertise, and innovative thinking. Let us introduce you to
+            the incredible individuals steering our journey to success.
         </p>
 
         <div class="row gy-4 mb-4">
