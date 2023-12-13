@@ -164,7 +164,14 @@
                     <p style="font-size: 13px">Recruiter</p>
                 </center>
             </div>
-
+            <div class='col'>
+                <center>
+                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
+                        height="250" width="200" alt="" loading="lazy" />
+                    <h5 class="mb-0">Ashley Lester</h5>
+                    <p style="font-size: 13px">Recruiter</p>
+                </center>
+            </div>
             <div class='col'>
                 <center>
                     <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
@@ -187,14 +194,6 @@
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">April Szymanski</h5>
                     <p style="font-size: 13px">Recruiter</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Paige Johnson</h5>
-                    <p style="font-size: 13px">Locum Tenens Recruiter</p>
                 </center>
             </div>
             <div class='col'>
@@ -305,14 +304,7 @@
                     <p style="font-size: 13px">Credentialing Specialist</p>
                 </center>
             </div>
-            <div class='col'>
-                <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Ashley Lester</h5>
-                    <p style="font-size: 13px">Credentialing Specialist</p>
-                </center>
-            </div>
+
         </div>
 
         <h3 class="text-center mb-4">Compliance</h3>
