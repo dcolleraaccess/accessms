@@ -11,8 +11,7 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/referral.jpg')}}"
-                    style="height:600px;object-fit: cover;object-position: 0px -150px;">
+                <img src="{{asset('img/Doctors Meeting - L.jpg')}}" style="height:600px;object-fit: cover">
             </div>
         </div>
     </div>
@@ -131,14 +130,16 @@
                 </p>
             </div>
             <div class="col-lg-6">
-                <img src="{{asset('img/Locum Tenens.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
+                <img src="{{asset('img/Nurse checking IV bag - L.jpg')}}" class="d-block w-100 rounded-5 contentimg"
+                    alt="...">
             </div>
         </div>
 
 
         <div class="row d-flex align-items-center py-4">
             <div class="col-lg-6 order-2 order-lg-1">
-                <img src="{{asset('img/Permanent.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
+                <img src="{{asset('img/Gloved Hands and Globe - L.jpg')}}" class="d-block w-100 rounded-5 contentimg"
+                    alt="...">
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
                 <h1 class="text-center text-lg-start">Global Reach and Local Impact</h1>

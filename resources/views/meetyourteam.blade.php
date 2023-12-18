@@ -174,8 +174,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/recruiter/Sherry Woods.png/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Sherry Woords</h5>
                     <p style="font-size: 13px">Recruiter</p>
                 </center>
@@ -198,8 +198,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/recruiter/Rachel Smith.png/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Rachel Smith</h5>
                     <p style="font-size: 13px">Recruiter</p>
                 </center>
@@ -274,8 +274,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/credential/kathy kiser.jpg/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Kathy Kiser</h5>
                     <p style="font-size: 13px">Credentialing Specialist</p>
                 </center>
@@ -298,8 +298,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/credential/rhoda.png/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Rhoda Borgonia</h5>
                     <p style="font-size: 13px">Credentialing Specialist</p>
                 </center>
@@ -439,8 +439,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/admin/demetria.jpg/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Demetria Townsend</h5>
                     <p style="font-size: 13px">Admin Assistant</p>
                 </center>
