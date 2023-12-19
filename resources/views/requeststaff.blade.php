@@ -11,7 +11,8 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/staffingreq.jpg')}}" style="height:300px;object-fit: cover">
+                <img src="{{asset('img/Asian Nurse with Mature Male Patient - L.jpg')}}"
+                    style="height:500px;object-fit: cover">
             </div>
         </div>
     </div>
@@ -64,7 +65,8 @@
     <div class="container-xl py-5">
         <div class="row d-flex align-items-center py-2">
             <div class="col-lg-6 order-2 order-lg-1">
-                <img src="{{asset('img/staffreq2.jpg')}}" class="d-block w-100 rounded-5 contentimg" alt="...">
+                <img src="{{asset('img/Cropped shot of a senior woman holding hands with a nurse - L.jpg')}}"
+                    class="d-block w-100 rounded-5 contentimg" alt="...">
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
                 <h3 class="text-center text-lg-start">Relieve Your Staffing Concerns with Access Healthcare Staffing

@@ -11,8 +11,8 @@
     <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/referral.jpg')}}"
-                    style="height:300px;object-fit: cover;object-position: 0px -150px;">
+                <img src="{{asset('img/Teamwork of doctors and nurses - L.jpg')}}"
+                    style="height:300px;object-fit: cover">
             </div>
         </div>
     </div>
