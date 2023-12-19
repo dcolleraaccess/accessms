@@ -325,31 +325,54 @@
         <div class="row d-flex align-items-center">
 
             <div class="col-lg-6">
-                <h1 class="text-center text-lg-end">Check out our new Podcast</h1>
+                <h1 class="text-center text-lg-end">T.G.I LIVE</h1>
                 <p class="text-center text-lg-end">
-                    Explore the world of wellness and healthcare with our brand new podcast, 'See U Next Tuesday!' Join
-                    us as we delve into a variety of captivating health-related topics, offering insights into the
-                    latest medical advancements, wellness trends, and discussions on promoting a healthier lifestyle.
+                    Explore the World of Traveling with Access Healthcare's Social Media Live Sessions. Get
+                    to know the Access Team, ask questions, learn what’s new in the world of healthcare, and more!
                 </p>
 
 
                 <div class="d-none d-lg-flex flex-column justify-content-end">
                     <button class="btn custom-menu mb-4" style="background-color: #FFFF80">See More</button>
-                    <img src=" {{asset('img/youtube.png')}}" alt="..." style="max-width: 50%" class="custom-menu">
                 </div>
                 <div class="d-flex d-lg-none flex-column">
                     <center>
                         <button class="btn custom-menu mb-4 mb-lg-0" style="background-color: #FFFF80">See
                             More</button><br>
-                        <img src=" {{asset('img/youtube.png')}}" alt="..." style="max-width: 50%"
-                            class="custom-menu mb-4 mb-lg-0">
+
                     </center>
                 </div>
 
             </div>
             <div class="col-lg-6">
+                <img src="{{asset('img/Website-SMMLive-ver1 2560x1706.png')}}"
+                    class="d-block w-100 rounded-5 ms-0 ms-lg-2" alt="...">
+            </div>
+
+        </div>
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-lg-6 my-3">
                 <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5 ms-0 ms-lg-2" alt="...">
             </div>
+
+            <div class="col-lg-6 my-3">
+                <h1 class="text-center text-lg-start">WELLNESS WEDNESDAY</h1>
+                <p class="text-center text-lg-start">
+                    Wellness Wednesday is a weekly online session focused on mental health, self-care, and personal
+                    growth. Explore diverse topics led by the expert, Thomas Notarianni aka The Practical Buddha,
+                    offering practical tips and resources for a balanced life. Whether you're a healthcare professional
+                    or seeking self-improvement, be one with our supportive community for transformative insights and a
+                    happier, healthier you. This is 100% free! JOIN US!
+                </p>
+
+
+                <button class="btn custom-menu mb-4 mb-lg-0" style="background-color: #FFFF80">See
+                    More</button><br>
+
+            </div>
+
 
         </div>
 
