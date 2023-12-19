@@ -322,10 +322,10 @@
 
 <section>
     <div class="container-xl py-5 my-5">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center mb-5">
 
             <div class="col-lg-6">
-                <h1 class="text-center text-lg-end">T.G.I LIVE</h1>
+                <h1 class="text-center text-lg-end">T.G.I Live</h1>
                 <p class="text-center text-lg-end">
                     Explore the World of Traveling with Access Healthcare's Social Media Live Sessions. Get
                     to know the Access Team, ask questions, learn what’s new in the world of healthcare, and more!
@@ -351,14 +351,15 @@
 
         </div>
 
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center my-4">
 
-            <div class="col-lg-6 my-3">
-                <img src="{{asset('img/ahs_slideA.jpg')}}" class="d-block w-100 rounded-5 ms-0 ms-lg-2" alt="...">
+            <div class="col-lg-6">
+                <img src="{{asset('img/Website-WW-ver2 2560x1706.png')}}" class="d-block w-100 rounded-5 ms-0 ms-lg-2"
+                    alt="...">
             </div>
 
-            <div class="col-lg-6 my-3">
-                <h1 class="text-center text-lg-start">WELLNESS WEDNESDAY</h1>
+            <div class="col-lg-6">
+                <h1 class="text-center text-lg-start">Wellness Wednesday</h1>
                 <p class="text-center text-lg-start">
                     Wellness Wednesday is a weekly online session focused on mental health, self-care, and personal
                     growth. Explore diverse topics led by the expert, Thomas Notarianni aka The Practical Buddha,
