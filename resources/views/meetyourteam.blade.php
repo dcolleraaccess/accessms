@@ -214,14 +214,6 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Earvin Malay</h5>
-                    <p style="font-size: 13px">Recruiter</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
                     <img src="{{ asset('/img/staff/recruiter/derrick lam.png/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Derrick Lam</h5>
@@ -364,8 +356,8 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
+                    <img src="{{ asset('/img/staff/accounting/Rona ID.jpg/')}}" style="object-fit:cover"
+                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Rona Lyn Caneta</h5>
                     <p style="font-size: 13px">Accounting Assistant</p>
                 </center>

@@ -62,12 +62,7 @@ class StateNursingController extends Controller
     // Only include "Link" section if $link is not null
     if ($link !== 'null') {
 
-        $linkArray = explode(',', $link);
-
-        foreach ($linkArray as $linkz) {
-            $html .= "<li class='my-1'><a href=\"$linkz\" target=\"_blank\"><b>Link</b> </a></li>";
-        }
-
+        $html .= "<li class='my-1'><a href=\"$linkz\" target=\"_blank\"><b>Link</b> </a></li>";
     }
 
     $html .= "</ul>";
