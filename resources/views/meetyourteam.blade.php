@@ -62,14 +62,6 @@
         <div class="row gy-4 mb-4">
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Todd Wecker</h5>
-                    <p style="font-size: 13px">Director of Recruitment</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
                     <img src="{{ asset('/img/staff/recruiter/Mindy Pierce.jpg/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Mindy Pierce</h5>
@@ -230,14 +222,6 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Annalyn Magarin</h5>
-                    <p style="font-size: 13px">Recruiter</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
                     <img src="{{ asset('/img/staff/recruiter/derrick lam.png/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Derrick Lam</h5>
@@ -360,14 +344,6 @@
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Michelle Sneller</h5>
                     <p style="font-size: 13px">Payroll Specialist</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
-                        height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Tamara Lloyd</h5>
-                    <p style="font-size: 13px">A/R Specialist</p>
                 </center>
             </div>
             <div class='col'>

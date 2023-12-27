@@ -19,7 +19,7 @@ use App\Mail\TestEmail;
 */
 
 Route::get('/send-test-email', function () {
-    Mail::to('mfuentes@accesshealthcarestaffing.com')->send(new TestEmail());
+    Mail::to('dcollera@accesshealthcarestaffing.com')->send(new TestEmail());
 
     return "Test email sent!";
 });

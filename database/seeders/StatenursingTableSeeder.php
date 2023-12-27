@@ -14,12 +14,12 @@ class StatenursingTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('statenursing')->delete();
-        
+
         \DB::table('statenursing')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'state' => 'Alabama',
@@ -41,7 +41,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'state' => 'Alaska',
@@ -63,7 +63,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'state' => 'Arizona',
@@ -85,7 +85,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'state' => 'Arkansas',
@@ -107,7 +107,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'state' => 'California',
@@ -129,7 +129,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'state' => 'Colorado',
@@ -151,7 +151,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'state' => 'Connecticut',
@@ -173,7 +173,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'state' => 'Delaware',
@@ -195,7 +195,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'state' => 'District Of Columbia',
@@ -217,7 +217,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'state' => 'Florida',
@@ -239,7 +239,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'state' => 'Georgia',
@@ -261,7 +261,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'state' => 'Hawaii',
@@ -283,7 +283,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'state' => 'Idaho',
@@ -305,7 +305,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'state' => 'illinois',
@@ -327,7 +327,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'state' => 'Indiana',
@@ -349,7 +349,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'state' => 'Iowa',
@@ -371,7 +371,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'state' => 'Kansas',
@@ -393,7 +393,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'state' => 'Kentucky',
@@ -415,7 +415,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'state' => 'Louisiana',
@@ -437,7 +437,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'state' => 'Maine',
@@ -459,7 +459,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'state' => 'Maryland',
@@ -481,7 +481,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'state' => 'Massachusetts',
@@ -503,7 +503,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'state' => 'Michigan',
@@ -525,7 +525,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'state' => 'Minnesota',
@@ -547,7 +547,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'state' => 'Mississippi',
@@ -569,7 +569,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'state' => 'Missouri',
@@ -591,7 +591,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'state' => 'Montana',
@@ -613,7 +613,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'state' => 'Nebraska',
@@ -635,7 +635,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'state' => 'Nevada',
@@ -657,7 +657,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'state' => 'New Hampshire',
@@ -679,7 +679,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'state' => 'New Jersey',
@@ -701,7 +701,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'state' => 'New Mexico',
@@ -723,7 +723,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'state' => 'New York',
@@ -745,7 +745,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'state' => 'North Carolina',
@@ -767,7 +767,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
                 'state' => 'North Dakota',
@@ -789,7 +789,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'state' => 'Ohio',
@@ -811,7 +811,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'state' => 'Oklahoma',
@@ -833,7 +833,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'state' => 'Oregon',
@@ -855,7 +855,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'state' => 'Pennsylvania',
@@ -877,7 +877,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'state' => 'Rhode Island',
@@ -899,7 +899,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'state' => 'South Carolina',
@@ -921,7 +921,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'state' => 'South Dakota',
@@ -943,7 +943,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'state' => 'Tennessee',
@@ -965,13 +965,13 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'state' => 'Texas',
-                'rntemp' => 'null',
+                'rntemp' => 'NA',
                 'rnperm' => 'null',
-                'rnfees' => 'null',
+                'rnfees' => 'NA',
                 'rnnote' => 'null',
                 'rnlink' => 'https://www.bon.texas.gov/texasnurseportal/index.html',
                 'lpntemp' => '10 Days',
@@ -987,7 +987,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'state' => 'Utah',
@@ -1009,7 +1009,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'state' => 'Vermont',
@@ -1031,7 +1031,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'state' => 'Virginia',
@@ -1053,7 +1053,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'state' => 'Washington',
@@ -1075,7 +1075,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'state' => 'West Virginia',
@@ -1097,7 +1097,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'state' => 'Wisconsin',
@@ -1119,7 +1119,7 @@ class StatenursingTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'state' => 'Wyoming',
@@ -1142,7 +1142,7 @@ class StatenursingTableSeeder extends Seeder
                 'updated_at' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

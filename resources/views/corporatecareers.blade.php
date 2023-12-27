@@ -78,7 +78,7 @@
                     </div>
                     @endforeach
                     @else
-                    <h4>No Job at the moment but we are happy to accept your application!</h4>
+                    <h4>No Jobs at the moment but we are happy to accept your application!</h4>
                     <div class="card mt-4">
                         <div class="card-body">
                             <h3 class="card-title">Send Resume</h3>
@@ -89,6 +89,7 @@
                                     <input type="text" class="form-control" placeholder="Last Name*">
                                 </div>
                                 <div class="input-group my-3">
+                                    <span class="input-group-text">Where You Live</span>
                                     <select name="state" id="state" class="form-select">
                                         @php
                                         $states = DB::table('statenursing')

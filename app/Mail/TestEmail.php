@@ -29,7 +29,7 @@ class TestEmail extends Mailable
     public function build()
     {
         return $this->view('emailtest')
-            ->from('dcollera@accesshealthcarestaffing.com', 'Test From')
+            ->from('referrals@accesshealthcarestaffing.com', 'Test From')
             ->subject("Test Email");
 
     }
