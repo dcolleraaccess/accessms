@@ -5,7 +5,7 @@ use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\StateNursingController;
 use App\Http\Controllers\CorporateController;
-
+use App\Mail\TestEmail;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,12 @@ use App\Http\Controllers\CorporateController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/send-test-email', function () {
+    Mail::to('mfuentes@accesshealthcarestaffing.com')->send(new TestEmail());
+
+    return "Test email sent!";
+});
 
 Route::get('/', function () {
     return view('home');

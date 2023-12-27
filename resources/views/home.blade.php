@@ -351,7 +351,7 @@
 
         </div>
 
-        <div class="row d-flex align-items-center my-4">
+        {{-- <div class="row d-flex align-items-center my-4">
 
             <div class="col-lg-6">
                 <img src="{{asset('img/Website-WW-ver2 2560x1706.png')}}" class="d-block w-100 rounded-5 ms-0 ms-lg-2"
@@ -375,7 +375,7 @@
             </div>
 
 
-        </div>
+        </div> --}}
 
     </div>
 </section>
