@@ -386,7 +386,7 @@
                 <center>
                     <img src="{{ asset('/img/staff/admin/Salcedo, Sene Jessie James.png/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Senen Salcedo</h5>
+                    <h5 class="mb-0">Jessie Salcedo</h5>
                     <p style="font-size: 13px">Admin Assistant</p>
                 </center>
             </div>

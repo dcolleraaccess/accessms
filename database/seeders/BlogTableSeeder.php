@@ -1196,6 +1196,43 @@ Doyle foresees a bright future for Access Healthcare. The team is working hard t
                 'title' => 'Team Member Spotlight: Bryan Rowell ER RN',
                 'updated_at' => '2023-09-02 00:00:00',
             ),
+            38 => 
+            array (
+                'category' => 'Team Member Spotlight',
+                'content' => '<img src="/storage/blog/unnamed-10.png" class="img-fluid"><br>',
+                'created_at' => '2023-10-06 00:00:00',
+                'id' => 39,
+                'image' => 'unnamed-15-1.jpg',
+                'status' => 'active',
+                'title' => 'Team Member Spotlight: Justin Antes ICU RN',
+                'updated_at' => '2023-10-06 00:00:00',
+            ),
+            39 => 
+            array (
+                'category' => 'Team Member Spotlight',
+                'content' => '<img src="/storage/blog/team-nov1.png" class="img-fluid"><br>
+<br>
+<img src="/storage/blog/team-nov2.png" class="img-fluid">',
+                'created_at' => '2023-11-03 00:00:00',
+                'id' => 40,
+                'image' => 'unnamed-15-1.jpg',
+                'status' => 'active',
+                'title' => 'Team Member Spotlight: Shirley Fertig Med Surge RN',
+                'updated_at' => '2023-11-03 00:00:00',
+            ),
+            40 => 
+            array (
+                'category' => 'Team Member Spotlight',
+                'content' => '<img src="/storage/blog/decteam1.png" class="img-fluid"><br>
+<br>
+<img src="/storage/blog/decteam2.png" class="img-fluid">',
+                'created_at' => '2023-12-01 00:00:00',
+                'id' => 41,
+                'image' => 'unnamed-15-1.jpg',
+                'status' => 'active',
+                'title' => 'Team Member Spotlight: Danielle Erickson ER RN',
+                'updated_at' => '2023-12-01 00:00:00',
+            ),
         ));
         
         

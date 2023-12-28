@@ -158,13 +158,13 @@
                             <div class="input-group my-3">
                                 <span class="input-group-text">Recruiter</span>
                                 <select class="form-select" aria-label="Default select example" id="recruiters">
-                                    <option selected hidden>Recruiters</option>
+                                    <option selected hidden>Recruiters*</option>
                                 </select>
                             </div>
 
                             <hr>
 
-                            <h5>About Your Referral </h5>
+                            <h5>About Your Referral</h5>
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Name</span>
                                 <input type="text" class="form-control" placeholder="First Name">

@@ -44,29 +44,28 @@ class StateNursingController extends Controller
 
     private function generateSectionHtml($title, $temp, $perm, $fees, $notes, $link){
         $html = "<h4>$title</h4>
-             <ul>
-                 <li class='my-1'><b>Temp License:</b> $temp</li>";
+            <ul>
+                <li class='my-1'><b>Temp License:</b> $temp</li>";
 
-    // Only include "Perm License" section if $perm is not null
-    if ($perm !== 'null') {
-        $html .= "<li class='my-1'><b>Perm License:</b> $perm</li>";
-    }
+        // Only include "Perm License" section if $perm is not null
+        if ($perm !== 'null') {
+            $html .= "<li class='my-1'><b>Perm License:</b> $perm</li>";
+        }
 
-    $html .= "<li class='my-1'><b>Fees:</b> $fees</li>";
+        $html .= "<li class='my-1'><b>Fees:</b> $fees</li>";
 
-    // Only include "Notes" section if $notes is not null
-    if ($notes !== 'null') {
-        $html .= "<li class='my-1'><b>Notes:</b> $notes</li>";
-    }
+        // Only include "Notes" section if $notes is not null
+        if ($notes !== 'null') {
+            $html .= "<li class='my-1'><b>Notes:</b> $notes</li>";
+        }
 
-    // Only include "Link" section if $link is not null
-    if ($link !== 'null') {
+        // Only include "Link" section if $link is not null
+        if ($link !== 'null') {
+            $html .= "<li class='my-1'><a href=\"$linkz\" target=\"_blank\"><b>Link</b> </a></li>";
+        }
 
-        $html .= "<li class='my-1'><a href=\"$linkz\" target=\"_blank\"><b>Link</b> </a></li>";
-    }
+        $html .= "</ul>";
 
-    $html .= "</ul>";
-
-    return $html;
+        return $html;
     }
 }
