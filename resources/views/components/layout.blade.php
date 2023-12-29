@@ -24,6 +24,27 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        .circle {
+            width: 170px;
+            height: 170px;
+            background-color: #ffff80;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            /* Stack children vertically */
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            /* Center text horizontally */
+            position: absolute;
+            top: -160%;
+            left: 3%;
+            z-index: 100;
+        }
+
         .custom-menu {
             margin-left: auto;
         }

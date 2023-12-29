@@ -23,8 +23,6 @@ class LandingPageController extends Controller
     }
 
 
-
-
     public function oauthToken(){
         $url = 'https://api-nexus.laboredge.com:9000/api/secured/oauth/token';
 
@@ -100,7 +98,7 @@ class LandingPageController extends Controller
         $response = curl_exec($ch);
 
         if ($response === FALSE) {
-            die('Curl error: ' . curl_error($ch));
+            die('0');
         }
 
         curl_close($ch);

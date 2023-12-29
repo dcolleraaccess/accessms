@@ -60,7 +60,7 @@
 
 </div>
 
-<section style="background-color: #ffff80">
+{{-- <section style="background-color: #ffff80">
     <div class="container-xl py-3">
         <div class="d-none d-md-block">
             <div class="row">
@@ -119,6 +119,86 @@
             </div>
             <a href="" class="btn btn-dark w-100" type="button" id="searchbuttonsmall" target="_empty">Search</a>
         </div>
+    </div>
+</section> --}}
+
+
+<section style="background-color: #ffff80">
+    <div class="container-xl py-3">
+        <div class="d-none d-md-block">
+            <div class="row" style="position: relative">
+                <div style="position: absolute" class="circle">
+                    <div>
+                        Active Jobs
+                    </div>
+                    <div>
+                        <span id="jobcount">0</span>
+                    </div>
+                </div>
+                <h3 class="col-4">
+
+                </h3>
+                <div class="col-8">
+
+                    <div class="d-none d-md-block">
+                        <div class="row">
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example" id="professions">
+                                    <option selected hidden>Professions</option>
+                                    @php
+                                    $professions = DB::table('professions')
+                                    ->get()
+                                    ->toArray();
+                                    @endphp
+
+                                    @foreach ($professions as $pro)
+                                    <option value="{{$pro->id}}">{{$pro->name}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example" id="specialties">
+                                    <option selected hidden>Specialties</option>
+                                </select>
+                            </div>
+                            <div class="col-auto">
+                                <a href="" class="btn btn-dark" type="button" id="searchbutton"
+                                    target="_empty">Search</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none">
+            <h3 class="fw-bold mb-2">
+                <center>
+                    Search Jobs
+                </center>
+            </h3>
+            <select class="form-select mb-2" aria-label="Default select example" id="professionssmall">
+                <option selected hidden>Professions</option>
+                @php
+                $professions = DB::table('professions')
+                ->get()
+                ->toArray();
+                @endphp
+
+                @foreach ($professions as $pro)
+                <option value="{{$pro->id}}">{{$pro->name}}</option>
+                @endforeach
+            </select>
+            <div class="col">
+                <select class="form-select mb-2" aria-label="Default select example" id="specialtiessmall">
+                    <option selected hidden>Specialties</option>
+                </select>
+            </div>
+            <a href="" class="btn btn-dark w-100" type="button" id="searchbuttonsmall" target="_empty">Search</a>
+        </div>
+    </div>
     </div>
 </section>
 
