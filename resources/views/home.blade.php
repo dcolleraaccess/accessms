@@ -125,7 +125,7 @@
 
 <section style="background-color: #ffff80">
     <div class="container-xl py-3">
-        <div class="d-none d-md-block">
+        <div class="d-none d-lg-block">
             <div class="row" style="position: relative">
                 <div style="position: absolute" class="circle">
                     <div>
@@ -173,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-block d-md-none">
+        <div class="d-block d-lg-none">
             <h3 class="fw-bold mb-2">
                 <center>
                     Search Jobs
@@ -197,6 +197,8 @@
                 </select>
             </div>
             <a href="" class="btn btn-dark w-100" type="button" id="searchbuttonsmall" target="_empty">Search</a>
+
+
         </div>
     </div>
     </div>
@@ -490,8 +492,10 @@
 
 
         var countdisplay = $("#jobcount");
+        var countdisplay2 = $("#jobcount2");
         $.get('fetchJobCount', function (data){
             countdisplay.text(data);
+            countdisplay2.text(data);
         })
 
 
