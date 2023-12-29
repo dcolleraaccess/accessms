@@ -98,7 +98,7 @@ class LandingPageController extends Controller
         $response = curl_exec($ch);
 
         if ($response === FALSE) {
-            die('0');
+            die('5132');
         }
 
         curl_close($ch);

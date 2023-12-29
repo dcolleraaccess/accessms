@@ -132,7 +132,7 @@
                         Open Jobs
                     </div>
                     <div>
-                        <span id="jobcount">0</span>
+                        <span id="jobcount">5132</span>
                     </div>
                 </div>
                 <h3 class="col-4">
@@ -490,15 +490,12 @@
 <script>
     $(document).ready(function () {
 
-
         var countdisplay = $("#jobcount");
         var countdisplay2 = $("#jobcount2");
         $.get('fetchJobCount', function (data){
             countdisplay.text(data);
             countdisplay2.text(data);
         })
-
-
 
         var $searchButton = $('#searchbutton');
 
