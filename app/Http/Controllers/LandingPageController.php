@@ -53,7 +53,7 @@ class LandingPageController extends Controller
             die('Error occurred while fetching data from the API');
         }
 
-                // Decode the JSON string
+        // Decode the JSON string
         $datas = json_decode($response, true);
 
         // Check if decoding was successful
@@ -69,7 +69,7 @@ class LandingPageController extends Controller
         $url = 'https://api-nexus.laboredge.com:9000/api/job-service/v1/ats/external/jobs/search';
 
         $headers = [
-            'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsYXN0TmFtZSI6IlVzZXIiLCJjbGllbnRJZCI6bnVsbCwidXNlcl9uYW1lIjoiYXBpX2FjY2Vzc2hlYWx0aGNhcmUiLCJoaWVyYXJjaHlFbmFibGVkIjpmYWxzZSwiYWdlbmN5SWQiOjMyLCJjbGllbnRDb250YWN0SWQiOm51bGwsInVzZXJJZCI6NTIzOTc5LCJhdXRob3JpdGllcyI6WyJBVFNfQUdFTkNZIl0sImNsaWVudF9pZCI6Im5leHVzIiwib3JnYW5pemF0aW9uSWQiOjM0LCJvcmdhbml6YXRpb25UeXBlIjoiQVRTIiwicG93ZXJVc2VyIjpmYWxzZSwiZmlyc3ROYW1lIjoiQVBJIiwib3JnYW5pemF0aW9uQ29kZSI6IkFjY2VzcyIsImFwcGxpY2F0aW9uVHlwZUlkIjoiQVRTX0FHRU5DWSIsIm9yZ2FuaXphdGlvbklkZW50aWZpZXIiOiJBY2Nlc3MiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwib3JnYW5pemF0aW9uQ291bnRyeUlkIjo0MCwidGVuYW50SWQiOiJURU5BTlRfMSIsImV4cCI6MTcwMzg3MDM2MCwiY2FuZGlkYXRlSWQiOm51bGwsImp0aSI6ImE1N2FjOTFkLTI5YmItNDI2Yi1hODY5LWFhMTI2ZDU0NGFkZiIsImVtYWlsIjoiIn0.ekhtbiA8iWkYGbXPRFjKPgZdAi9XYqu9MnNVJ9zhOL4',
+            'Authorization: Bearer ' . $this->oauthToken(),
             'Content-Type: application/json',
         ];
 
@@ -98,6 +98,14 @@ class LandingPageController extends Controller
 
         curl_close($ch);
 
-        echo $response;
+        $datas = json_decode($response, true);
+
+        // Check if decoding was successful
+        if ($datas === null) {
+            die('Error occurred while decoding JSON');
+        }
+
+        // Output the decoded data
+        return $datas['count'];
     }
 }
