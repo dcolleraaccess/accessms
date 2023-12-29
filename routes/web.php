@@ -18,8 +18,14 @@ use App\Mail\TestEmail;
 |
 */
 
-Route::get('/oauthtoken', [LandingPageController::class, 'oauthToken'])->name('oauthToken');
-Route::get('/jobCount', [LandingPageController::class, 'jobCount'])->name('jobCount');
+
+// FOR LOCAL TESTING ONLY
+// Route::get('/oauthtoken', [LandingPageController::class, 'oauthToken'])->name('oauthToken');
+// Route::get('/jobCount', [LandingPageController::class, 'jobCount'])->name('jobCount');
+
+Route::get('/fetchJobCount', [LandingPageController::class, 'fetchJobCount'])->name('fetchJobCount');
+
+
 
 Route::get('/send-test-email', function () {
     Mail::to('dcollera@accesshealthcarestaffing.com')->send(new TestEmail());

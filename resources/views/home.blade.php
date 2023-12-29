@@ -65,7 +65,8 @@
         <div class="d-none d-md-block">
             <div class="row">
                 <h3 class="fw-bold col">
-                    Search Jobs
+                    Search Jobs<br>
+                    COUNT: <span id="jobcount">0</span>
                 </h3>
                 <div class="col">
                     <select class="form-select" aria-label="Default select example" id="professions">
@@ -406,6 +407,15 @@
 @push('jsscripts')
 <script>
     $(document).ready(function () {
+
+
+        var countdisplay = $("#jobcount");
+        $.get('fetchJobCount', function (data){
+            countdisplay.text(data);
+        })
+
+
+
         var $searchButton = $('#searchbutton');
 
         $('#specialties').change(function () {

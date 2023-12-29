@@ -22,6 +22,9 @@ class LandingPageController extends Controller
             return response()->json($specialties);
     }
 
+
+
+
     public function oauthToken(){
         $url = 'https://api-nexus.laboredge.com:9000/api/secured/oauth/token';
 
@@ -85,6 +88,10 @@ class LandingPageController extends Controller
             CURLOPT_POSTFIELDS     => json_encode($data),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HTTPHEADER     => $headers,
+
+            // FOR LOCAL TESTING ONLY
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYHOST => false,
         ];
 
         $ch = curl_init();
@@ -107,5 +114,9 @@ class LandingPageController extends Controller
 
         // Output the decoded data
         return $datas['count'];
+    }
+
+    public function fetchJobCount(Request $request){
+        return response()->json($this->jobCount());
     }
 }
