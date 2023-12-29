@@ -43,7 +43,7 @@
             top: -180%;
             left: 3%;
             z-index: 100;
-            border: 4px dotted #000000;
+            border: 4px solid #000000;
         }
 
         .custom-menu {
