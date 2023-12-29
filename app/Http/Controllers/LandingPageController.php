@@ -90,8 +90,8 @@ class LandingPageController extends Controller
             CURLOPT_HTTPHEADER     => $headers,
 
             // FOR LOCAL TESTING ONLY
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false,
+            // CURLOPT_SSL_VERIFYPEER => false,
+            // CURLOPT_SSL_VERIFYHOST => false,
         ];
 
         $ch = curl_init();
