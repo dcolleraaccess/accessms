@@ -129,7 +129,7 @@
             <div class="row" style="position: relative">
                 <div style="position: absolute" class="circle">
                     <div>
-                        Active Jobs
+                        Open Jobs
                     </div>
                     <div>
                         <span id="jobcount">0</span>
