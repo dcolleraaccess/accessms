@@ -18,6 +18,9 @@ use App\Mail\TestEmail;
 |
 */
 
+Route::get('/oauthtoken', [LandingPageController::class, 'oauthToken'])->name('oauthToken');
+Route::get('/jobCount', [LandingPageController::class, 'jobCount'])->name('jobCount');
+
 Route::get('/send-test-email', function () {
     Mail::to('dcollera@accesshealthcarestaffing.com')->send(new TestEmail());
 
@@ -47,7 +50,6 @@ Route::get('/locumtenens', function(){
 Route::get('/meetyourteam', function(){
     return view('meetyourteam');
 });
-
 
 
 Route::get('/blog', function(){
