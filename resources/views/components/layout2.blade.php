@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title', env('WEB_TITLE'))</title>
+    <title>{{ env('WEB_TITLE', 'Default Title') }}</title>
 
     {{-- Font Awesome Icons Free CDN --}}
     <script src="https://kit.fontawesome.com/193851b937.js" crossorigin="anonymous"></script>
