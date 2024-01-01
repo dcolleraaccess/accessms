@@ -15,7 +15,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 
-    <link rel="icon" type="image/ico" href="{{ asset('favicon/favicon.ico') }}">
+
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -123,6 +123,9 @@
         }
     </style>
     @yield('styles')
+
+    <link rel="icon" type="image/ico" href="{{ asset('favicon/favicon.ico') }}">
+
 </head>
 
 <body>
