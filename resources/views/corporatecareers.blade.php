@@ -82,12 +82,14 @@
                     <div class="card mt-4">
                         <div class="card-body">
                             <h3 class="card-title">Send Resume</h3>
+
                             <form action="" class="mt-4">
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">Name</span>
                                     <input type="text" class="form-control" placeholder="First Name*">
                                     <input type="text" class="form-control" placeholder="Last Name*">
                                 </div>
+
                                 <div class="input-group my-3">
                                     <span class="input-group-text">Where You Live</span>
                                     <select name="state" id="state" class="form-select">
@@ -102,10 +104,12 @@
                                         @endforeach
                                     </select>
                                 </div>
+
                                 <div class="input-group my-3">
                                     <span class="input-group-text">About You</span>
                                     <textarea class="form-control"> </textarea>
                                 </div>
+
                                 <div class="mb-3">
                                     <label for="formFile" class="form-label">Attach Resume</label>
                                     <input class="form-control" type="file" id="formFile">
@@ -113,6 +117,8 @@
 
                                 <button class="btn" style="background-color: #FFFF80">Send Details</button>
                             </form>
+
+
 
                         </div>
 
