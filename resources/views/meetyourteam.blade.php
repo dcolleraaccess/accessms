@@ -142,14 +142,6 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/recruiter/James Bertuso.png/')}}" style="object-fit:cover"
-                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">James Bertuso</h5>
-                    <p style="font-size: 13px">Recruiter</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
                     <img src="{{ asset('/img/staff/recruiter/Thamara.jpg/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Thamara Joers</h5>
@@ -273,14 +265,7 @@
                     <p style="font-size: 13px">Credentialing Specialist</p>
                 </center>
             </div>
-            <div class='col'>
-                <center>
-                    <img src="{{ asset('/img/staff/credential/rhoda.png/')}}" style="object-fit:cover"
-                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Rhoda Borgonia</h5>
-                    <p style="font-size: 13px">Credentialing Specialist</p>
-                </center>
-            </div>
+
 
         </div>
 
@@ -340,14 +325,6 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/accounting/Amy Bushey Pic.jpg/')}}" style="object-fit:cover"
-                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Amy Bushey</h5>
-                    <p style="font-size: 13px">A/R Specialist</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
                     <img src="{{ asset('/img/staff/accounting/Figueroa, Rose 2.png/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Rose Figueroa</h5>
@@ -403,14 +380,6 @@
                     <img src="{{ asset('/img/staff/admin/JAYMARIE ACADEMIA.png/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Jaymarie Academia</h5>
-                    <p style="font-size: 13px">Admin Assistant</p>
-                </center>
-            </div>
-            <div class='col'>
-                <center>
-                    <img src="{{ asset('/img/staff/admin/demetria.jpg/')}}" style="object-fit:cover"
-                        class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
-                    <h5 class="mb-0">Demetria Townsend</h5>
                     <p style="font-size: 13px">Admin Assistant</p>
                 </center>
             </div>
