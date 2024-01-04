@@ -24,7 +24,6 @@
                         <ul class="dropdown-menu font-weight-bold">
                             <li><a class="dropdown-item py-2" href="/about">Who We Are</a></li>
                             <li><a class="dropdown-item py-2" href="/blog">Access Blog</a></li>
-                            <li><a class="dropdown-item py-2" href="/meetyourteam">Meet Your Team</a></li>
                             <li><a class="dropdown-item py-2" href="/tjc">Joint Commission</a></li>
                             <li><a class="dropdown-item py-2" href="/corporatecareers">Corporate Careers</a></li>
                             <li><a class="dropdown-item py-2" href="/connect">Connect With Us</a></li>
