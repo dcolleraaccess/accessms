@@ -140,6 +140,7 @@
                     <p style="font-size: 13px">Recruiter</p>
                 </center>
             </div>
+
             <div class='col'>
                 <center>
                     <img src="{{ asset('/img/staff/recruiter/Thamara.jpg/')}}" style="object-fit:cover"
@@ -323,6 +324,7 @@
                     <p style="font-size: 13px">Payroll Specialist</p>
                 </center>
             </div>
+
             <div class='col'>
                 <center>
                     <img src="{{ asset('/img/staff/accounting/Figueroa, Rose 2.png/')}}" style="object-fit:cover"
