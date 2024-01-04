@@ -302,7 +302,7 @@
         <div class="row gy-4 mb-4">
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/accounting/jody palmier.jpg/')}}" style="object-fit:cover"
+                    <img src="{{ asset('/img/staff/accounting/kelly.jpg/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Kelly Bowersox</h5>
                     <p style="font-size: 13px">Accounts Receivable Manager</p>
@@ -310,7 +310,7 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/accounting/kelly.jpg/')}}" style="object-fit:cover"
+                    <img src="{{ asset('/img/staff/accounting/jody palmier.jpg/')}}" style="object-fit:cover"
                         class="rounded-4 mb-3" height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Jody Palmier</h5>
                     <p style="font-size: 13px">Payroll Manager / AP Retirement Specialist</p>
