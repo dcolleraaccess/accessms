@@ -6,6 +6,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\StateNursingController;
 use App\Http\Controllers\CorporateController;
 use App\Mail\TestEmail;
+use App\Http\Controllers\MeetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,7 @@ use App\Mail\TestEmail;
 
 Route::get('/fetchJobCount', [LandingPageController::class, 'fetchJobCount'])->name('fetchJobCount');
 
-
+Route::get('/mytgetcontent', [MeetController::class, 'mytgetcontent'])->name('mytgetcontent');
 
 Route::get('/send-test-email', function () {
     Mail::to('dcollera@accesshealthcarestaffing.com')->send(new TestEmail());
