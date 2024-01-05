@@ -45,6 +45,7 @@
                 <li>Nationwide Criminal Search</li>
                 <li>Drug Screening</li>
                 <li>Medical Record Verification</li>
+                <li>24/7 Internal Clinical Manager for Q&A's</li>
             </ul>
             <p>
                 <br>
