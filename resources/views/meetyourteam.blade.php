@@ -320,7 +320,7 @@
                 </a>
             </div>
             <div class='col'>
-                <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer; color:black; text-decoration:none" class="myt" data-name="Kathy Kiser" data-image="{{ asset('/img/staff/credential/kathy Kiser.jpg')}}">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer; color:black; text-decoration:none" class="myt" data-name="Kathy Kiser" data-image="{{ asset('/img/staff/credential/kathy kiser.jpg')}}">
                 <center>
                     <img src="{{ asset('/img/staff/credential/kathy kiser.jpg/')}}" style="object-fit:cover"
                         class="rounded-circle mb-3" height="200" width="200" alt="" loading="lazy" />
