@@ -100,7 +100,7 @@
                 </a>
             </div>
             <div class='col'>
-                <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer; color:black; text-decoration:none" class="myt" data-name="Lauren Burnett" data-image="{{ asset('/img/staff/recruiter/Lauren.png')}}">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer; color:black; text-decoration:none" class="myt" data-name="Lauren Burnett" data-image="{{ asset('/img/staff/recruiter/lauren.png')}}">
                 <center>
                     <img src="{{ asset('/img/staff/recruiter/lauren.png/')}}" style="object-fit:cover"
                          class="rounded-circle mb-3" height="200" width="200" alt="" loading="lazy" />
