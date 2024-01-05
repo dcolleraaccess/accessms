@@ -199,7 +199,7 @@
             </div>
             <div class='col'>
                 <center>
-                    <img src="{{ asset('/img/staff/blank.png/')}}" style="object-fit:cover" class="rounded-4 mb-3"
+                    <img src="{{ asset('/img/staff/recruiter/RR.jpg')}}" style="object-fit:cover" class="rounded-4 mb-3"
                         height="250" width="200" alt="" loading="lazy" />
                     <h5 class="mb-0">Jesumari Moleta</h5>
                     <p style="font-size: 13px">Recruiter</p>
