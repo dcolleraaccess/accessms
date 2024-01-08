@@ -69,6 +69,11 @@ Route::get('/referrals', function(){
     return view('referral');
 });
 
+Route::get('/takehomecalculator', function(){
+    return view('calcu');
+});
+
+
 Route::get('/privacypolicy', function(){
     return view('privacypolicy');
 });

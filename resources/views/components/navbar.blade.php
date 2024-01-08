@@ -45,6 +45,7 @@
                                     Paystubs</a></li>
                             <li><a class="dropdown-item py-2" href="/referrals">Referral Program</a></li>
                             <li><a class="dropdown-item py-2" href="/benefits">Benefits and Extras</a></li>
+                            <li><a class="dropdown-item py-2" href="/takehomecalculator">Take Home Calculator</a></li>
                             <li><a class="dropdown-item py-2" href="/statenursinglicense">State Nursing License
                                     Requirements</a></li>
                         </ul>
