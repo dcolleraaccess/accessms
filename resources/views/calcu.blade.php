@@ -196,13 +196,12 @@
                         <div class="card-body">
                             <h3 class="card-title">Take Home Pay Calculator</h3>
                             <form action="" class="mt-4">
-                                <div class="input-group mb-3">
+                                <div class="input-group mb-3 flex-wrap">
                                     <span class="input-group-text">Regular Pay Rate</span>
                                     <input type="number" class="form-control" id="regp" value="20">
                                     <span class="input-group-text" id="r1">Regular Hours Work: 36</span>
                                     <input type="range" class="form-control" id="regh" min="0" max="100" style="background: transparent; accent-color: black" value="36">
                                     <span class="input-group-text" id="regpay" style="background-color:#ffff80">Regular Hours Amount: $720.00 </span>
-
                                 </div>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">Overtime Pay Rate</span>
@@ -222,8 +221,10 @@
                                     </select>
                                 </div>
                                 <div class="input-group mb-3" style="width: 100%">
-                                    <span class="input-group-text" id="gweekly" style="width: 50%; background-color:#ffff80">Total Gross Weekly: $720.00</span>
-                                    <span class="input-group-text" id="nweekly" style="width: 50%; background-color:#ffff80">Estimated Take Home Weekly: $561.60</span>
+                                    <span class="input-group-text" id="gweekly" style="width: 50%; background-color:#ffff80; width: 100%">Total Gross Weekly: $720.00</span>
+                                </div>
+                                <div class="input-group mb-3" style="width: 100%">
+                                    <span class="input-group-text" id="nweekly" style="width: 50%; background-color:#ffff80;  width: 100%; white-space: normal;">Estimated Take Home Weekly: $561.60</span>
                                 </div>
                             </form>
                         </div>
